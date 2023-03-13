@@ -14,9 +14,9 @@
                                         <button type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Setting <i class="ion-ios-arrow-down"></i></button>
 
                                         <ul class="dropdown-menu animation slideDownIn" aria-labelledby="dropdownMenuButton">
-                                            <li><a href="my-account.html">My account</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="login.html">Sign in</a></li>
+                                            <li><NuxtLink to="/my-account">My account</NuxtLink></li>
+                                            <li><NuxtLink to="/checkout">Checkout</NuxtLink></li>
+                                            <li><NuxtLink to="/login">Sign in</NuxtLink></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -25,8 +25,8 @@
                                         <button type="button" id="dropdownMenuButton-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD $ <i class="ion-ios-arrow-down"></i></button>
 
                                         <ul class="dropdown-menu animation slideDownIn" aria-labelledby="dropdownMenuButton-2">
-                                            <li><a href="#">EUR €</a></li>
-                                            <li><a href="#">USD $</a></li>
+                                            <li><NuxtLink to="/">EUR €</NuxtLink></li>
+                                            <li><NuxtLink to="/">USD $</NuxtLink></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -38,10 +38,10 @@
 
                                         <ul class="dropdown-menu animation slideDownIn" aria-labelledby="dropdownMenuButton-3">
                                             <li>
-                                                <a href="#"><img src="~/assets/images/flag/1.jpg" alt="" /> English</a>
+                                                <NuxtLink to="/"><img src="~/assets/images/flag/1.jpg" alt="" /> English</NuxtLink>
                                             </li>
                                             <li>
-                                                <a href="#"><img src="~/assets/images/flag/2.jpg" alt="" /> Français</a>
+                                                <NuxtLink to="/"><img src="~/assets/images/flag/2.jpg" alt="" /> Français</NuxtLink>
                                             </li>
                                         </ul>
                                     </div>
@@ -57,7 +57,7 @@
                     <div class="row">
                         <div class="col-md-2">
                             <div class="logo">
-                                <a href="index.html"><img class="img-responsive" src="~/assets/images/logo/logo.png" alt="logo.jpg" /></a>
+                                <NuxtLink to="/index"><img class="img-responsive" src="~/assets/images/logo/logo.png" alt="logo.jpg" /></NuxtLink>
                             </div>
                         </div>
                         <div class="col-md-10 align-self-center">
@@ -177,15 +177,15 @@
                                 <div class="contact-link">
                                     <div class="phone">
                                         <p>Call us:</p>
-                                        <a href="tel:(+800)345678">(+800)345678</a>
+                                        <NuxtLink to="/tel:(+800)345678">(+800)345678</NuxtLink>
                                     </div>
                                 </div>
                                 <!--Cart info Start -->
                                 <div class="header-tools d-flex">
                                     <div class="cart-info d-flex align-self-center">
-                                        <a href="compare.html" class="shuffle" data-number="3"><i class="icon-shuffle"></i></a>
-                                        <a href="#offcanvas-wishlist" class="heart offcanvas-toggle" data-number="3"><i class="icon-heart"></i></a>
-                                        <a href="#offcanvas-cart" class="bag offcanvas-toggle" data-number="3"><i class="icon-bag"></i><span>$20.00</span></a>
+                                        <NuxtLink to="/compare" class="shuffle" data-number="3"><i class="icon-shuffle"></i></NuxtLink>
+                                        <NuxtLink to="/offcanvas-wishlist" class="heart offcanvas-toggle" data-number="3"><i class="icon-heart"></i></NuxtLink>
+                                        <NuxtLink to="/offcanvas-cart" class="bag offcanvas-toggle" data-number="3"><i class="icon-bag"></i><span>$20.00</span></NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -203,66 +203,66 @@
                                 <h4 class="menu-title">All Cattegories</h4>
                                 <ul class="menu-content display-none">
                                     <li class="menu-item">
-                                        <a href="#">Electronics <i class="ion-ios-arrow-right"></i></a>
+                                        <NuxtLink to="/">Electronics <i class="ion-ios-arrow-right"></i></NuxtLink>
                                         <ul class="sub-menu flex-wrap">
                                             <li>
-                                                <a href="#">
+                                                <NuxtLink to="/">
                                                     <span> <strong> Accessories & Parts</strong></span>
-                                                </a>
+                                                </NuxtLink>
                                                 <ul class="submenu-item">
-                                                    <li><a href="#">Cables & Adapters</a></li>
-                                                    <li><a href="#">Batteries</a></li>
-                                                    <li><a href="#">Chargers</a></li>
-                                                    <li><a href="#">Bags & Cases</a></li>
-                                                    <li><a href="#">Electronic Cigarettes</a></li>
+                                                    <li><NuxtLink to="/">Cables & Adapters</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Batteries</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Chargers</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Bags & Cases</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Electronic Cigarettes</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <NuxtLink to="/">
                                                     <span><strong>Camera & Photo</strong></span>
-                                                </a>
+                                                </NuxtLink>
                                                 <ul class="submenu-item">
-                                                    <li><a href="#">Digital Cameras</a></li>
-                                                    <li><a href="#">Camcorders</a></li>
-                                                    <li><a href="#">Camera Drones</a></li>
-                                                    <li><a href="#">Action Cameras</a></li>
-                                                    <li><a href="#">Photo Studio Supplie</a></li>
+                                                    <li><NuxtLink to="/">Digital Cameras</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Camcorders</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Camera Drones</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Action Cameras</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Photo Studio Supplie</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <NuxtLink to="/">
                                                     <span><strong>Smart Electronics</strong></span>
-                                                </a>
+                                                </NuxtLink>
                                                 <ul class="submenu-item">
-                                                    <li><a href="#">Wearable Devices</a></li>
-                                                    <li><a href="#">Smart Home Appliances</a></li>
-                                                    <li><a href="#">Smart Remote Controls</a></li>
-                                                    <li><a href="#">Smart Watches</a></li>
-                                                    <li><a href="#">Smart Wristbands</a></li>
+                                                    <li><NuxtLink to="/">Wearable Devices</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Smart Home Appliances</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Smart Remote Controls</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Smart Watches</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Smart Wristbands</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <NuxtLink to="/">
                                                     <span><strong>Audio & Video</strong></span>
-                                                </a>
+                                                </NuxtLink>
                                                 <ul class="submenu-item">
-                                                    <li><a href="#">Televisions</a></li>
-                                                    <li><a href="#">TV Receivers</a></li>
-                                                    <li><a href="#">Projectors</a></li>
-                                                    <li><a href="#">Audio Amplifier Boards</a></li>
-                                                    <li><a href="#">TV Sticks</a></li>
+                                                    <li><NuxtLink to="/">Televisions</NuxtLink></li>
+                                                    <li><NuxtLink to="/">TV Receivers</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Projectors</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Audio Amplifier Boards</NuxtLink></li>
+                                                    <li><NuxtLink to="/">TV Sticks</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <NuxtLink to="/">
                                                     <span><strong>Portable Audio & Video</strong></span>
-                                                </a>
+                                                </NuxtLink>
                                                 <ul class="submenu-item">
-                                                    <li><a href="#">Headphones</a></li>
-                                                    <li><a href="#">Speakers</a></li>
-                                                    <li><a href="#">MP3 Players</a></li>
-                                                    <li><a href="#">VR/AR Devices</a></li>
-                                                    <li><a href="#">Microphones</a></li>
+                                                    <li><NuxtLink to="/">Headphones</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Speakers</NuxtLink></li>
+                                                    <li><NuxtLink to="/">MP3 Players</NuxtLink></li>
+                                                    <li><NuxtLink to="/">VR/AR Devices</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Microphones</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li>
@@ -272,26 +272,26 @@
                                         <!-- sub menu -->
                                     </li>
                                     <li class="menu-item">
-                                        <a href="#">Video Games <i class="ion-ios-arrow-right"></i></a>
+                                        <NuxtLink to="/">Video Games <i class="ion-ios-arrow-right"></i></NuxtLink>
                                         <ul class="sub-menu sub-menu-2">
                                             <li>
                                                 <ul class="submenu-item">
-                                                    <li><a href="#">Handheld Game Players</a></li>
-                                                    <li><a href="#">Game Controllers</a></li>
-                                                    <li><a href="#">Joysticks</a></li>
-                                                    <li><a href="#">Stickers</a></li>
+                                                    <li><NuxtLink to="/">Handheld Game Players</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Game Controllers</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Joysticks</NuxtLink></li>
+                                                    <li><NuxtLink to="/">Stickers</NuxtLink></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                         <!-- sub menu -->
                                     </li>
-                                    <li class="menu-item"><a href="#">Televisions</a></li>
-                                    <li class="menu-item"><a href="#">Digital Cameras</a></li>
-                                    <li class="menu-item"><a href="#">Headphones</a></li>
-                                    <li class="menu-item"><a href="#"> Wearable Devices</a></li>
-                                    <li class="menu-item"><a href="#"> Smart Watches</a></li>
-                                    <li class="menu-item"><a href="#"> Game Controllers</a></li>
-                                    <li class="menu-item"><a href="#"> Smart Home Appliances</a></li>
+                                    <li class="menu-item"><NuxtLink to="/">Televisions</NuxtLink></li>
+                                    <li class="menu-item"><NuxtLink to="/">Digital Cameras</NuxtLink></li>
+                                    <li class="menu-item"><NuxtLink to="/">Headphones</NuxtLink></li>
+                                    <li class="menu-item"><NuxtLink to="/"> Wearable Devices</NuxtLink></li>
+                                    <li class="menu-item"><NuxtLink to="/"> Smart Watches</NuxtLink></li>
+                                    <li class="menu-item"><NuxtLink to="/"> Game Controllers</NuxtLink></li>
+                                    <li class="menu-item"><NuxtLink to="/"> Smart Home Appliances</NuxtLink></li>
                                 </ul>
                                 <!-- menu content -->
                             </div>
@@ -301,107 +301,107 @@
                             <div class="header-horizontal-menu">
                                 <ul class="menu-content">
                                     <li class="active menu-dropdown">
-                                        <a href="#">Home <i class="ion-ios-arrow-down"></i></a>
+                                        <NuxtLink to="/">Home <i class="ion-ios-arrow-down"></i></NuxtLink>
                                         <ul class="main-sub-menu">
-                                            <li><a href="index.html">Home 1</a></li>
-                                            <li><a href="index-2.html">Home 2</a></li>
-                                            <li><a href="index-3.html">Home 3</a></li>
-                                            <li><a href="index-4.html">Home 4</a></li>
+                                            <li><NuxtLink to="/index">Home 1</NuxtLink></li>
+                                            <li><NuxtLink to="/index-2">Home 2</NuxtLink></li>
+                                            <li><NuxtLink to="/index-3">Home 3</NuxtLink></li>
+                                            <li><NuxtLink to="/index-4">Home 4</NuxtLink></li>
                                         </ul>
                                     </li>
                                     <li class="menu-dropdown">
-                                        <a href="#">Shop <i class="ion-ios-arrow-down"></i></a>
+                                        <NuxtLink to="/">Shop <i class="ion-ios-arrow-down"></i></NuxtLink>
                                         <ul class="mega-menu-wrap">
                                             <li>
                                                 <ul>
-                                                    <li class="mega-menu-title"><a href="#">Shop Grid</a></li>
-                                                    <li><a href="shop-3-column.html">Shop Grid 3 Column</a></li>
-                                                    <li><a href="shop-4-column.html">Shop Grid 4 Column</a></li>
-                                                    <li><a href="shop-left-sidebar.html">Shop Grid Left Sidebar</a></li>
-                                                    <li><a href="shop-right-sidebar.html">Shop Grid Right Sidebar</a></li>
+                                                    <li class="mega-menu-title"><NuxtLink to="/">Shop Grid</NuxtLink></li>
+                                                    <li><NuxtLink to="/shop-3-column">Shop Grid 3 Column</NuxtLink></li>
+                                                    <li><NuxtLink to="/shop-4-column">Shop Grid 4 Column</NuxtLink></li>
+                                                    <li><NuxtLink to="/shop-left-sidebar">Shop Grid Left Sidebar</NuxtLink></li>
+                                                    <li><NuxtLink to="/shop-right-sidebar">Shop Grid Right Sidebar</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <ul>
-                                                    <li class="mega-menu-title"><a href="#">Shop List</a></li>
-                                                    <li><a href="shop-list.html">Shop List</a></li>
-                                                    <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                                                    <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
+                                                    <li class="mega-menu-title"><NuxtLink to="/">Shop List</NuxtLink></li>
+                                                    <li><NuxtLink to="/shop-list">Shop List</NuxtLink></li>
+                                                    <li><NuxtLink to="/shop-list-left-sidebar">Shop List Left Sidebar</NuxtLink></li>
+                                                    <li><NuxtLink to="/shop-list-right-sidebar">Shop List Right Sidebar</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <ul>
-                                                    <li class="mega-menu-title"><a href="#">Shop Single</a></li>
-                                                    <li><a href="single-product.html">Shop Single</a></li>
-                                                    <li><a href="single-product-variable.html">Shop Variable</a></li>
-                                                    <li><a href="single-product-affiliate.html">Shop Affiliate</a></li>
-                                                    <li><a href="single-product-group.html">Shop Group</a></li>
-                                                    <li><a href="single-product-tabstyle-2.html">Shop Tab 2</a></li>
-                                                    <li><a href="single-product-tabstyle-3.html">Shop Tab 3</a></li>
+                                                    <li class="mega-menu-title"><NuxtLink to="/">Shop Single</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product">Shop Single</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-variable">Shop Variable</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-affiliate">Shop Affiliate</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-group">Shop Group</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-tabstyle-2">Shop Tab 2</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-tabstyle-3">Shop Tab 3</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <ul>
-                                                    <li class="mega-menu-title"><a href="#">Shop Single</a></li>
-                                                    <li><a href="single-product-slider.html">Shop Slider</a></li>
-                                                    <li><a href="single-product-gallery-left.html">Shop Gallery Left</a></li>
-                                                    <li><a href="single-product-gallery-right.html">Shop Gallery Right</a></li>
-                                                    <li><a href="single-product-sticky-left.html">Shop Sticky Left</a></li>
-                                                    <li><a href="single-product-sticky-right.html">Shop Sticky Right</a></li>
+                                                    <li class="mega-menu-title"><NuxtLink to="/">Shop Single</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-slider">Shop Slider</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-gallery-left">Shop Gallery Left</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-gallery-right">Shop Gallery Right</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-sticky-left">Shop Sticky Left</NuxtLink></li>
+                                                    <li><NuxtLink to="/single-product-sticky-right">Shop Sticky Right</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li class="w-100">
                                                 <ul class="banner-megamenu-wrapper d-flex">
                                                     <li class="banner-wrapper mr-30px">
-                                                        <a href="single-product.html"><img src="~/assets/images/menu-image/banner-menu2.jpg" alt="" /></a>
+                                                        <NuxtLink to="/single-product"><img src="~/assets/images/menu-image/banner-menu2.jpg" alt="" /></NuxtLink>
                                                     </li>
                                                     <li class="banner-wrapper">
-                                                        <a href="single-product.html"><img src="~/assets/images/menu-image/banner-menu3.jpg" alt="" /></a>
+                                                        <NuxtLink to="/single-product"><img src="~/assets/images/menu-image/banner-menu3.jpg" alt="" /></NuxtLink>
                                                     </li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="menu-dropdown">
-                                        <a href="#">Pages <i class="ion-ios-arrow-down"></i></a>
+                                        <NuxtLink to="/">Pages <i class="ion-ios-arrow-down"></i></NuxtLink>
                                         <ul class="main-sub-menu">
-                                            <li><a href="about.html">About Page</a></li>
-                                            <li><a href="cart.html">Cart Page</a></li>
-                                            <li><a href="checkout.html">Checkout Page</a></li>
-                                            <li><a href="compare.html">Compare Page</a></li>
-                                            <li><a href="login.html">Login & Register Page</a></li>
-                                            <li><a href="my-account.html">Account Page</a></li>
-                                            <li><a href="wishlist.html">Wishlist Page</a></li>
-                                            <li><a href="thank-you-page.html">Thank You Page</a></li>
+                                            <li><NuxtLink to="/about">About Page</NuxtLink></li>
+                                            <li><NuxtLink to="/cart">Cart Page</NuxtLink></li>
+                                            <li><NuxtLink to="/checkout">Checkout Page</NuxtLink></li>
+                                            <li><NuxtLink to="/compare">Compare Page</NuxtLink></li>
+                                            <li><NuxtLink to="/login">Login & Register Page</NuxtLink></li>
+                                            <li><NuxtLink to="/my-account">Account Page</NuxtLink></li>
+                                            <li><NuxtLink to="/wishlist">Wishlist Page</NuxtLink></li>
+                                            <li><NuxtLink to="/thank-you-page">Thank You Page</NuxtLink></li>
                                         </ul>
                                     </li>
                                     <li class="menu-dropdown">
-                                        <a href="#">Blog <i class="ion-ios-arrow-down"></i></a>
+                                        <NuxtLink to="/">Blog <i class="ion-ios-arrow-down"></i></NuxtLink>
                                         <ul class="main-sub-menu">
                                             <li class="menu-dropdown position-static">
-                                                <a href="#">Blog Grid <i class="ion-ios-arrow-right"></i></a>
+                                                <NuxtLink to="/">Blog Grid <i class="ion-ios-arrow-right"></i></NuxtLink>
                                                 <ul class="main-sub-menu main-sub-menu-2">
-                                                    <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                                                    <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
+                                                    <li><NuxtLink to="/blog-grid-left-sidebar">Blog Grid Left Sidebar</NuxtLink></li>
+                                                    <li><NuxtLink to="/blog-grid-right-sidebar">Blog Grid Right Sidebar</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-dropdown position-static">
-                                                <a href="#">Blog List <i class="ion-ios-arrow-right"></i></a>
+                                                <NuxtLink to="/">Blog List <i class="ion-ios-arrow-right"></i></NuxtLink>
                                                 <ul class="main-sub-menu main-sub-menu-2">
-                                                    <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                                    <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
+                                                    <li><NuxtLink to="/blog-list-left-sidebar">Blog List Left Sidebar</NuxtLink></li>
+                                                    <li><NuxtLink to="/blog-list-right-sidebar">Blog List Right Sidebar</NuxtLink></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-dropdown position-static">
-                                                <a href="#">Blog Single <i class="ion-ios-arrow-right"></i></a>
+                                                <NuxtLink to="/">Blog Single <i class="ion-ios-arrow-right"></i></NuxtLink>
                                                 <ul class="main-sub-menu main-sub-menu-2">
-                                                    <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
-                                                    <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidbar</a></li>
+                                                    <li><NuxtLink to="/blog-single-left-sidebar">Blog Single Left Sidebar</NuxtLink></li>
+                                                    <li><NuxtLink to="/blog-single-right-sidebar">Blog Single Right Sidbar</NuxtLink></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">contact Us</a></li>
+                                    <li><NuxtLink to="/contact">contact Us</NuxtLink></li>
                                 </ul>
                             </div>
                             <!-- header horizontal menu -->

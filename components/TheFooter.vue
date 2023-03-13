@@ -25,12 +25,12 @@
                                     <h4 class="footer-herading">Information</h4>
                                     <div class="footer-links">
                                         <ul>
-                                            <li><a href="#">Delivery</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="#">Secure Payment</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                            <li><a href="#">Sitemap</a></li>
-                                            <li><a href="#">Stores</a></li>
+                                            <li><NuxtLink to="/">Delivery</NuxtLink></li>
+                                            <li><NuxtLink to="/about">About Us</NuxtLink></li>
+                                            <li><NuxtLink to="/">Secure Payment</NuxtLink></li>
+                                            <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
+                                            <li><NuxtLink to="/">Sitemap</NuxtLink></li>
+                                            <li><NuxtLink to="/">Stores</NuxtLink></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -40,12 +40,12 @@
                                     <h4 class="footer-herading">CUSTOM LINKS</h4>
                                     <div class="footer-links">
                                         <ul>
-                                            <li><a href="#">Legal Notice</a></li>
-                                            <li><a href="#">Prices Drop</a></li>
-                                            <li><a href="#">New Products</a></li>
-                                            <li><a href="#">Best Sales</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="my-account.html">My Account</a></li>
+                                            <li><NuxtLink to="/">Legal Notice</NuxtLink></li>
+                                            <li><NuxtLink to="/">Prices Drop</NuxtLink></li>
+                                            <li><NuxtLink to="/">New Products</NuxtLink></li>
+                                            <li><NuxtLink to="/">Best Sales</NuxtLink></li>
+                                            <li><NuxtLink to="/login">Login</NuxtLink></li>
+                                            <li><NuxtLink to="/my-account">My Account</NuxtLink></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -80,19 +80,19 @@
                                     <div class="social-info">
                                         <ul>
                                             <li>
-                                                <a href="#"><i class="icon-social-facebook"></i></a>
+                                                <NuxtLink to="/"><i class="icon-social-facebook"></i></NuxtLink>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="icon-social-twitter"></i></a>
+                                                <NuxtLink to="/"><i class="icon-social-twitter"></i></NuxtLink>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="icon-social-instagram"></i></a>
+                                                <NuxtLink to="/"><i class="icon-social-instagram"></i></NuxtLink>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="icon-social-google"></i></a>
+                                                <NuxtLink to="/"><i class="icon-social-google"></i></NuxtLink>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="icon-social-instagram"></i></a>
+                                                <NuxtLink to="/"><i class="icon-social-instagram"></i></NuxtLink>
                                             </li>
                                         </ul>
                                     </div>
@@ -106,8 +106,8 @@
                         <div class="row">
                             <div class="col-md-6">
                                 
-								<p class="copy-text"> © 2021 <strong>Rozer</strong> Made With <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> By <a class="company-name" href="https://hasthemes.com/">
-                                <strong> HasThemes</strong></a>.</p>
+								<p class="copy-text"> © 2021 <strong>Rozer</strong> Made With <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> By <NuxtLink class="company-name" to="/https://hasthemes.com/">
+                                <strong> HasThemes</strong></NuxtLink>.</p>
                             </div>
                             <div class="col-md-6 text-end">
                                 <img class="payment-img" src="~/assets/images/icons/payment.png" alt="" />
@@ -174,7 +174,7 @@
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
                                         </div>
-                                        <span class="read-review"><a class="reviews" href="#">Read reviews (1)</a></span>
+                                        <span class="read-review"><NuxtLink class="reviews" to="/">Read reviews (1)</NuxtLink></span>
                                     </div>
                                     <div class="pricing-meta">
                                         <ul>
@@ -198,15 +198,15 @@
                                             <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1" />
                                         </div>
                                         <div class="pro-details-cart btn-hover">
-                                            <a href="#"> + Add To Cart</a>
+                                            <NuxtLink to="/"> + Add To Cart</NuxtLink>
                                         </div>
                                     </div>
                                     <div class="pro-details-wish-com">
                                         <div class="pro-details-wishlist">
-                                            <a href="wishlist.html"><i class="ion-android-favorite-outline"></i>Add to wishlist</a>
+                                            <NuxtLink to="/wishlist"><i class="ion-android-favorite-outline"></i>Add to wishlist</NuxtLink>
                                         </div>
                                         <div class="pro-details-compare">
-                                            <a href="compare.html"><i class="ion-ios-shuffle-strong"></i>Add to compare</a>
+                                            <NuxtLink to="/compare"><i class="ion-ios-shuffle-strong"></i>Add to compare</NuxtLink>
                                         </div>
                                     </div>
                                     <div class="pro-details-social-info">
@@ -214,16 +214,16 @@
                                         <div class="social-info">
                                             <ul>
                                                 <li>
-                                                    <a href="#"><i class="ion-social-facebook"></i></a>
+                                                    <NuxtLink to="/"><i class="ion-social-facebook"></i></NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <a href="#"><i class="ion-social-twitter"></i></a>
+                                                    <NuxtLink to="/"><i class="ion-social-twitter"></i></NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <a href="#"><i class="ion-social-google"></i></a>
+                                                    <NuxtLink to="/"><i class="ion-social-google"></i></NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <a href="#"><i class="ion-social-instagram"></i></a>
+                                                    <NuxtLink to="/"><i class="ion-social-instagram"></i></NuxtLink>
                                                 </li>
                                             </ul>
                                         </div>
