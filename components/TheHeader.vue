@@ -57,7 +57,7 @@
                     <div class="row">
                         <div class="col-md-2">
                             <div class="logo">
-                                <NuxtLink to="/index"><img class="img-responsive" src="~/assets/images/logo/logo.png" alt="logo.jpg" /></NuxtLink>
+                                <NuxtLink to="/"><img class="img-responsive" src="~/assets/images/logo/logo.png" alt="logo.jpg" /></NuxtLink>
                             </div>
                         </div>
                         <div class="col-md-10 align-self-center">
@@ -303,7 +303,7 @@
                                     <li class="active menu-dropdown">
                                         <NuxtLink to="/">Home <i class="ion-ios-arrow-down"></i></NuxtLink>
                                         <ul class="main-sub-menu">
-                                            <li><NuxtLink to="/index">Home 1</NuxtLink></li>
+                                            <li><NuxtLink to="/">Home 1</NuxtLink></li>
                                             <li><NuxtLink to="/index-2">Home 2</NuxtLink></li>
                                             <li><NuxtLink to="/index-3">Home 3</NuxtLink></li>
                                             <li><NuxtLink to="/index-4">Home 4</NuxtLink></li>

@@ -7,7 +7,7 @@
                 <!-- Header Logo Start -->
                 <div class="col">
                     <div class="header-logo">
-                        <a href="index.html"><img class="img-responsive" src="~/assets/images/logo/logo.png" alt="logo.jpg" /></a>
+                        <NuxtLink to="/"><img class="img-responsive" src="~/assets/images/logo/logo.png" alt="logo.jpg" /></NuxtLink>
                     </div>
                 </div>
                 <!-- Header Logo End -->
@@ -16,18 +16,18 @@
                 <div class="col-auto">
                     <div class="header-tools justify-content-end">
                         <div class="cart-info d-flex align-self-center">
-                            <a href="compare.html" class="shuffle d-xs-none"  data-number="3"><i class="icon-shuffle"></i></a>
-                            <a href="#offcanvas-wishlist" class="heart offcanvas-toggle d-xs-none"  data-number="3"><i class="icon-heart"></i></a>
-                            <a href="#offcanvas-cart" class="bag offcanvas-toggle" :data-number="3"><i class="icon-bag"></i><span>$20.00</span></a>
+                            <NuxtLink to="/compare" class="shuffle d-xs-none"  data-number="3"><i class="icon-shuffle"></i></NuxtLink>
+                            <NuxtLink to="/offcanvas-wishlist" class="heart offcanvas-toggle d-xs-none"  data-number="3"><i class="icon-heart"></i></NuxtLink>
+                            <NuxtLink to="/offcanvas-cart" class="bag offcanvas-toggle" :data-number="3"><i class="icon-bag"></i><span>$20.00</span></NuxtLink>
                         </div>
                         <div class="mobile-menu-toggle">
-                            <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
+                            <NuxtLink to="/offcanvas-mobile-menu" class="offcanvas-toggle">
                                 <svg viewBox="0 0 800 600">
                                     <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
                                     <path d="M300,320 L540,320" id="middle"></path>
                                     <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
                                 </svg>
-                            </a>
+                            </NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -176,80 +176,80 @@
                         <nav class="category-menu">
                             <ul>
                                 <li class="menu-item-has-children menu-item-has-children-1">
-                                    <a href="#">Accessories & Parts<i class="ion-ios-arrow-down"></i></a>
+                                    <NuxtLink to="/">Accessories & Parts<i class="ion-ios-arrow-down"></i></NuxtLink>
                                     <!-- category submenu -->
                                     <ul class="category-mega-menu category-mega-menu-1">
-                                        <li><a href="#">Cables & Adapters</a></li>
-                                        <li><a href="#">Batteries</a></li>
-                                        <li><a href="#">Chargers</a></li>
-                                        <li><a href="#">Bags & Cases</a></li>
-                                        <li><a href="#">Electronic Cigarettes</a></li>
+                                        <li><NuxtLink to="/">Cables & Adapters</NuxtLink></li>
+                                        <li><NuxtLink to="/">Batteries</NuxtLink></li>
+                                        <li><NuxtLink to="/">Chargers</NuxtLink></li>
+                                        <li><NuxtLink to="/">Bags & Cases</NuxtLink></li>
+                                        <li><NuxtLink to="/">Electronic Cigarettes</NuxtLink></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children menu-item-has-children-2">
-                                    <a href="#">Camera & Photo<i class="ion-ios-arrow-down"></i></a>
+                                    <NuxtLink to="/">Camera & Photo<i class="ion-ios-arrow-down"></i></NuxtLink>
                                     <!-- category submenu -->
                                     <ul class="category-mega-menu category-mega-menu-2">
-                                        <li><a href="#">Digital Cameras</a></li>
-                                        <li><a href="#">Camcorders</a></li>
-                                        <li><a href="#">Camera Drones</a></li>
-                                        <li><a href="#">Action Cameras</a></li>
-                                        <li><a href="#">Photo Studio Supplies</a></li>
+                                        <li><NuxtLink to="/">Digital Cameras</NuxtLink></li>
+                                        <li><NuxtLink to="/">Camcorders</NuxtLink></li>
+                                        <li><NuxtLink to="/">Camera Drones</NuxtLink></li>
+                                        <li><NuxtLink to="/">Action Cameras</NuxtLink></li>
+                                        <li><NuxtLink to="/">Photo Studio Supplies</NuxtLink></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children menu-item-has-children-3">
-                                    <a href="#">Smart Electronics <i class="ion-ios-arrow-down"></i></a>
+                                    <NuxtLink to="/">Smart Electronics <i class="ion-ios-arrow-down"></i></NuxtLink>
                                     <!-- category submenu -->
                                     <ul class="category-mega-menu category-mega-menu-3">
-                                        <li><a href="#">Wearable Devices</a></li>
-                                        <li><a href="#">Smart Home Appliances</a></li>
-                                        <li><a href="#">Smart Remote Controls</a></li>
-                                        <li><a href="#">Smart Watches</a></li>
-                                        <li><a href="#">Smart Wristbands</a></li>
+                                        <li><NuxtLink to="/">Wearable Devices</NuxtLink></li>
+                                        <li><NuxtLink to="/">Smart Home Appliances</NuxtLink></li>
+                                        <li><NuxtLink to="/">Smart Remote Controls</NuxtLink></li>
+                                        <li><NuxtLink to="/">Smart Watches</NuxtLink></li>
+                                        <li><NuxtLink to="/">Smart Wristbands</NuxtLink></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children menu-item-has-children-4">
-                                    <a href="#">Audio & Video <i class="ion-ios-arrow-down"></i></a>
+                                    <NuxtLink to="/">Audio & Video <i class="ion-ios-arrow-down"></i></NuxtLink>
                                     <!-- category submenu -->
                                     <ul class="category-mega-menu category-mega-menu-4">
-                                        <li><a href="#">Televisions</a></li>
-                                        <li><a href="#">TV Receivers</a></li>
-                                        <li><a href="#">Projectors</a></li>
-                                        <li><a href="#">Audio Amplifier Boards</a></li>
-                                        <li><a href="#">TV Sticks</a></li>
+                                        <li><NuxtLink to="/">Televisions</NuxtLink></li>
+                                        <li><NuxtLink to="/">TV Receivers</NuxtLink></li>
+                                        <li><NuxtLink to="/">Projectors</NuxtLink></li>
+                                        <li><NuxtLink to="/">Audio Amplifier Boards</NuxtLink></li>
+                                        <li><NuxtLink to="/">TV Sticks</NuxtLink></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children menu-item-has-children-5">
-                                    <a href="#">Portable Audio & Video <i class="ion-ios-arrow-down"></i></a>
+                                    <NuxtLink to="/">Portable Audio & Video <i class="ion-ios-arrow-down"></i></NuxtLink>
                                     <!-- category submenu -->
                                     <ul class="category-mega-menu category-mega-menu-5">
-                                        <li><a href="#">Headphones</a></li>
-                                        <li><a href="#">Speakers</a></li>
-                                        <li><a href="#">MP3 Players</a></li>
-                                        <li><a href="#">VR/AR Devices</a></li>
-                                        <li><a href="#">Microphones</a></li>
+                                        <li><NuxtLink to="/">Headphones</NuxtLink></li>
+                                        <li><NuxtLink to="/">Speakers</NuxtLink></li>
+                                        <li><NuxtLink to="/">MP3 Players</NuxtLink></li>
+                                        <li><NuxtLink to="/">VR/AR Devices</NuxtLink></li>
+                                        <li><NuxtLink to="/">Microphones</NuxtLink></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children menu-item-has-children-6">
-                                    <a href="#">Video Game <i class="ion-ios-arrow-down"></i></a>
+                                    <NuxtLink to="/">Video Game <i class="ion-ios-arrow-down"></i></NuxtLink>
                                     <!-- category submenu -->
                                     <ul class="category-mega-menu category-mega-menu-6">
-                                        <li><a href="#">Handheld Game Players</a></li>
-                                        <li><a href="#">Game Controllers</a></li>
-                                        <li><a href="#">Joysticks</a></li>
-                                        <li><a href="#">Stickers</a></li>
+                                        <li><NuxtLink to="/">Handheld Game Players</NuxtLink></li>
+                                        <li><NuxtLink to="/">Game Controllers</NuxtLink></li>
+                                        <li><NuxtLink to="/">Joysticks</NuxtLink></li>
+                                        <li><NuxtLink to="/">Stickers</NuxtLink></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Televisions</a></li>
-                                <li><a href="#">Digital Cameras</a></li>
-                                <li><a href="#">Headphones</a></li>
-                                <li><a href="#">Wearable Devices</a></li>
-                                <li><a href="#">Smart Watches</a></li>
-                                <li><a href="#">Game Controllers</a></li>
-                                <li><a href="#"> Smart Home Appliances</a></li>
-                                <li class="hidden"><a href="#">Projectors</a></li>
+                                <li><NuxtLink to="/">Televisions</NuxtLink></li>
+                                <li><NuxtLink to="/">Digital Cameras</NuxtLink></li>
+                                <li><NuxtLink to="/">Headphones</NuxtLink></li>
+                                <li><NuxtLink to="/">Wearable Devices</NuxtLink></li>
+                                <li><NuxtLink to="/">Smart Watches</NuxtLink></li>
+                                <li><NuxtLink to="/">Game Controllers</NuxtLink></li>
+                                <li><NuxtLink to="/"> Smart Home Appliances</NuxtLink></li>
+                                <li class="hidden"><NuxtLink to="/">Projectors</NuxtLink></li>
                                 <li>
-                                    <a href="#" id="more-btn"><i class="ion-ios-plus-empty" aria-hidden="true"></i> More Categories</a>
+                                    <NuxtLink to="/" id="more-btn"><i class="ion-ios-plus-empty" aria-hidden="true"></i> More Categories</NuxtLink>
                                 </li>
                             </ul>
                         </nav>
@@ -271,34 +271,34 @@
             <div class="body customScroll">
                 <ul class="minicart-product-list">
                     <li>
-                        <a href="single-product.html" class="image"><img src="~/assets/images/product-image/1.jpg" alt="Cart product Image"></a>
+                        <NuxtLink to="/single-product" class="image"><img src="~/assets/images/product-image/1.jpg" alt="Cart product Image"></NuxtLink>
                         <div class="content">
-                            <a href="single-product.html" class="title">Walnut Cutting Board</a>
+                            <NuxtLink to="/single-product" class="title">Walnut Cutting Board</NuxtLink>
                             <span class="quantity-price">1 x <span class="amount">$100.00</span></span>
-                            <a href="#" class="remove">×</a>
+                            <NuxtLink to="/" class="remove">×</NuxtLink>
                         </div>
                     </li>
                     <li>
-                        <a href="single-product.html" class="image"><img src="~/assets/images/product-image/2.jpg" alt="Cart product Image"></a>
+                        <NuxtLink to="/single-product" class="image"><img src="~/assets/images/product-image/2.jpg" alt="Cart product Image"></NuxtLink>
                         <div class="content">
-                            <a href="single-product.html" class="title">Lucky Wooden Elephant</a>
+                            <NuxtLink to="/single-product" class="title">Lucky Wooden Elephant</NuxtLink>
                             <span class="quantity-price">1 x <span class="amount">$35.00</span></span>
-                            <a href="#" class="remove">×</a>
+                            <NuxtLink to="/" class="remove">×</NuxtLink>
                         </div>
                     </li>
                     <li>
-                        <a href="single-product.html" class="image"><img src="~/assets/images/product-image/3.jpg" alt="Cart product Image"></a>
+                        <NuxtLink to="/single-product" class="image"><img src="~/assets/images/product-image/3.jpg" alt="Cart product Image"></NuxtLink>
                         <div class="content">
-                            <a href="single-product.html" class="title">Fish Cut Out Set</a>
+                            <NuxtLink to="/single-product" class="title">Fish Cut Out Set</NuxtLink>
                             <span class="quantity-price">1 x <span class="amount">$9.00</span></span>
-                            <a href="#" class="remove">×</a>
+                            <NuxtLink to="/" class="remove">×</NuxtLink>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="foot">
                 <div class="buttons">
-                    <a href="wishlist.html" class="btn btn-dark btn-hover-primary mt-30px">view wishlist</a>
+                    <NuxtLink to="/wishlist" class="btn btn-dark btn-hover-primary mt-30px">view wishlist</NuxtLink>
                 </div>
             </div>
         </div>
@@ -315,27 +315,27 @@
             <div class="body customScroll">
                 <ul class="minicart-product-list">
                     <li>
-                        <a href="single-product.html" class="image"><img src="~/assets/images/product-image/1.jpg" alt="Cart product Image"></a>
+                        <NuxtLink to="/single-product" class="image"><img src="~/assets/images/product-image/1.jpg" alt="Cart product Image"></NuxtLink>
                         <div class="content">
-                            <a href="single-product.html" class="title">Walnut Cutting Board</a>
+                            <NuxtLink to="/single-product" class="title">Walnut Cutting Board</NuxtLink>
                             <span class="quantity-price">1 x <span class="amount">$100.00</span></span>
-                            <a href="#" class="remove">×</a>
+                            <NuxtLink to="/" class="remove">×</NuxtLink>
                         </div>
                     </li>
                     <li>
-                        <a href="single-product.html" class="image"><img src="~/assets/images/product-image/2.jpg" alt="Cart product Image"></a>
+                        <NuxtLink to="/single-product" class="image"><img src="~/assets/images/product-image/2.jpg" alt="Cart product Image"></NuxtLink>
                         <div class="content">
-                            <a href="single-product.html" class="title">Lucky Wooden Elephant</a>
+                            <NuxtLink to="/single-product" class="title">Lucky Wooden Elephant</NuxtLink>
                             <span class="quantity-price">1 x <span class="amount">$35.00</span></span>
-                            <a href="#" class="remove">×</a>
+                            <NuxtLink to="/" class="remove">×</NuxtLink>
                         </div>
                     </li>
                     <li>
-                        <a href="single-product.html" class="image"><img src="~/assets/images/product-image/3.jpg" alt="Cart product Image"></a>
+                        <NuxtLink to="/single-product" class="image"><img src="~/assets/images/product-image/3.jpg" alt="Cart product Image"></NuxtLink>
                         <div class="content">
-                            <a href="single-product.html" class="title">Fish Cut Out Set</a>
+                            <NuxtLink to="/single-product" class="title">Fish Cut Out Set</NuxtLink>
                             <span class="quantity-price">1 x <span class="amount">$9.00</span></span>
-                            <a href="#" class="remove">×</a>
+                            <NuxtLink to="/" class="remove">×</NuxtLink>
                         </div>
                     </li>
                 </ul>
@@ -346,8 +346,8 @@
                     <span class="amount">$144.00</span>
                 </div>
                 <div class="buttons">
-                    <a href="cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
-                    <a href="checkout.html" class="btn btn-outline-dark current-btn">checkout</a>
+                    <NuxtLink to="/cart" class="btn btn-dark btn-hover-primary mb-30px">view cart</NuxtLink>
+                    <NuxtLink to="/checkout" class="btn btn-outline-dark current-btn">checkout</NuxtLink>
                 </div>
                 <p class="minicart-message">Free Shipping on All Orders Over $100!</p>
             </div>
@@ -370,118 +370,118 @@
             </div>
             <div class="offcanvas-menu">
                 <ul>
-                    <li><a href="#"><span class="menu-text">Home</span></a>
+                    <li><NuxtLink to="/"><span class="menu-text">Home</span></NuxtLink>
                         <ul class="sub-menu">
-                            <li><a href="index.html"><span class="menu-text">Home 1</span></a></li>
-                            <li><a href="index-2.html"><span class="menu-text">Home 2</span></a></li>
-                            <li> <a href="index-3.html"><span class="menu-text">Home 3</span></a></li>
-                            <li><a href="index-4.html"><span class="menu-text">Home 4</span></a></li>
+                            <li><NuxtLink to="/"><span class="menu-text">Home 1</span></NuxtLink></li>
+                            <li><NuxtLink to="/-2"><span class="menu-text">Home 2</span></NuxtLink></li>
+                            <li> <NuxtLink to="/-3"><span class="menu-text">Home 3</span></NuxtLink></li>
+                            <li><NuxtLink to="/-4"><span class="menu-text">Home 4</span></NuxtLink></li>
                         </ul>
                     </li>
-                    <li><a href="#"><span class="menu-text">Shop</span></a>
+                    <li><NuxtLink to="/"><span class="menu-text">Shop</span></NuxtLink>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#"><span class="menu-text">Shop Grid</span></a>
+                                <NuxtLink to="/"><span class="menu-text">Shop Grid</span></NuxtLink>
                                 <ul class="sub-menu">
-                                    <li><a href="shop-3-column.html">Shop Grid 3 Column</a></li>
-                                    <li><a href="shop-4-column.html">Shop Grid 4 Column</a></li>
-                                    <li><a href="shop-left-sidebar.html">Shop Grid Left Sidebar</a></li>
-                                    <li><a href="shop-right-sidebar.html">Shop Grid Right Sidebar</a></li>
+                                    <li><NuxtLink to="/shop-3-column">Shop Grid 3 Column</NuxtLink></li>
+                                    <li><NuxtLink to="/shop-4-column">Shop Grid 4 Column</NuxtLink></li>
+                                    <li><NuxtLink to="/shop-left-sidebar">Shop Grid Left Sidebar</NuxtLink></li>
+                                    <li><NuxtLink to="/shop-right-sidebar">Shop Grid Right Sidebar</NuxtLink></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#"><span class="menu-text">Shop List</span></a>
+                                <NuxtLink to="/"><span class="menu-text">Shop List</span></NuxtLink>
                                 <ul class="sub-menu">
-                                    <li><a href="shop-list.html">Shop List</a></li>
-                                    <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                                    <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
+                                    <li><NuxtLink to="/shop-list">Shop List</NuxtLink></li>
+                                    <li><NuxtLink to="/shop-list-left-sidebar">Shop List Left Sidebar</NuxtLink></li>
+                                    <li><NuxtLink to="/shop-list-right-sidebar">Shop List Right Sidebar</NuxtLink></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#"><span class="menu-text">Shop Single</span></a>
+                                <NuxtLink to="/"><span class="menu-text">Shop Single</span></NuxtLink>
                                 <ul class="sub-menu">
-                                    <li><a href="single-product.html">Shop Single</a></li>
-                                    <li><a href="single-product-variable.html">Shop Variable</a></li>
-                                    <li><a href="single-product-affiliate.html">Shop Affiliate</a></li>
-                                    <li><a href="single-product-group.html">Shop Group</a></li>
-                                    <li><a href="single-product-tabstyle-2.html">Shop Tab 2</a></li>
-                                    <li><a href="single-product-tabstyle-3.html">Shop Tab 3</a></li>
+                                    <li><NuxtLink to="/single-product">Shop Single</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-variable">Shop Variable</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-affiliate">Shop Affiliate</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-group">Shop Group</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-tabstyle-2">Shop Tab 2</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-tabstyle-3">Shop Tab 3</NuxtLink></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#"><span class="menu-text">Shop Single</span></a>
+                                <NuxtLink to="/"><span class="menu-text">Shop Single</span></NuxtLink>
                                 <ul class="sub-menu">
-                                    <li><a href="single-product-slider.html">Shop Slider</a></li>
-                                    <li><a href="single-product-gallery-left.html">Shop Gallery Left</a></li>
-                                    <li><a href="single-product-gallery-right.html">Shop Gallery Right</a></li>
-                                    <li><a href="single-product-sticky-left.html">Shop Sticky Left</a></li>
-                                    <li><a href="single-product-sticky-right.html">Shop Sticky Right</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><span class="menu-text">Pages</span></a>
-                        <ul class="sub-menu">
-                            <li><a href="about.html">About Page</a></li>
-                            <li><a href="cart.html">Cart Page</a></li>
-                            <li><a href="checkout.html">Checkout Page</a></li>
-                            <li><a href="compare.html">Compare Page</a></li>
-                            <li><a href="login.html">Login & Register Page</a></li>
-                            <li><a href="my-account.html">Account Page</a></li>
-                            <li><a href="wishlist.html">Wishlist Page</a></li>
-                                            <li><a href="thank-you-page.html">Thank You Page</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><span class="menu-text">Blog</span></a>
-                        <ul class="sub-menu">
-                            <li><a href="#"><span class="menu-text">Blog Grid</span></a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                                    <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><span class="menu-text">Blog List</span></a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                    <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><span class="menu-text">Blog Single</span></a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
-                                    <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidbar</a></li>
+                                    <li><NuxtLink to="/single-product-slider">Shop Slider</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-gallery-left">Shop Gallery Left</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-gallery-right">Shop Gallery Right</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-sticky-left">Shop Sticky Left</NuxtLink></li>
+                                    <li><NuxtLink to="/single-product-sticky-right">Shop Sticky Right</NuxtLink></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><NuxtLink to="/"><span class="menu-text">Pages</span></NuxtLink>
+                        <ul class="sub-menu">
+                            <li><NuxtLink to="/about">About Page</NuxtLink></li>
+                            <li><NuxtLink to="/cart">Cart Page</NuxtLink></li>
+                            <li><NuxtLink to="/checkout">Checkout Page</NuxtLink></li>
+                            <li><NuxtLink to="/compare">Compare Page</NuxtLink></li>
+                            <li><NuxtLink to="/login">Login & Register Page</NuxtLink></li>
+                            <li><NuxtLink to="/my-account">Account Page</NuxtLink></li>
+                            <li><NuxtLink to="/wishlist">Wishlist Page</NuxtLink></li>
+                                            <li><NuxtLink to="/thank-you-page">Thank You Page</NuxtLink></li>
+                        </ul>
+                    </li>
+                    <li><NuxtLink to="/"><span class="menu-text">Blog</span></NuxtLink>
+                        <ul class="sub-menu">
+                            <li><NuxtLink to="/"><span class="menu-text">Blog Grid</span></NuxtLink>
+                                <ul class="sub-menu">
+                                    <li><NuxtLink to="/blog-grid-left-sidebar">Blog Grid Left Sidebar</NuxtLink></li>
+                                    <li><NuxtLink to="/blog-grid-right-sidebar">Blog Grid Right Sidebar</NuxtLink></li>
+                                </ul>
+                            </li>
+                            <li><NuxtLink to="/"><span class="menu-text">Blog List</span></NuxtLink>
+                                <ul class="sub-menu">
+                                    <li><NuxtLink to="/blog-list-left-sidebar">Blog List Left Sidebar</NuxtLink></li>
+                                    <li><NuxtLink to="/blog-list-right-sidebar">Blog List Right Sidebar</NuxtLink></li>
+                                </ul>
+                            </li>
+                            <li><NuxtLink to="/"><span class="menu-text">Blog Single</span></NuxtLink>
+                                <ul class="sub-menu">
+                                    <li><NuxtLink to="/blog-single-left-sidebar">Blog Single Left Sidebar</NuxtLink></li>
+                                    <li><NuxtLink to="/blog-single-right-sidebar">Blog Single Right Sidbar</NuxtLink></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
                 </ul>
             </div>
             <div class="offcanvas-buttons mt-30px">
                 <div class="header-tools d-flex">
                     <div class="cart-info d-flex align-self-center">
-                        <a href="my-account.html" class="user"><i class="icon-user"></i></a>
-                        <a href="wishlist.html" data-number="3"><i class="icon-heart"></i></a>
-                        <a href="cart.html" data-number="3"><i class="icon-bag"></i></a>
+                        <NuxtLink to="/my-account" class="user"><i class="icon-user"></i></NuxtLink>
+                        <NuxtLink to="/wishlist" data-number="3"><i class="icon-heart"></i></NuxtLink>
+                        <NuxtLink to="/cart" data-number="3"><i class="icon-bag"></i></NuxtLink>
                     </div>
                 </div>
             </div>
             <div class="offcanvas-social mt-30px">
                 <ul>
                     <li>
-                        <a href="#"><i class="icon-social-facebook"></i></a>
+                        <NuxtLink to="/"><i class="icon-social-facebook"></i></NuxtLink>
                     </li>
                     <li>
-                        <a href="#"><i class="icon-social-twitter"></i></a>
+                        <NuxtLink to="/"><i class="icon-social-twitter"></i></NuxtLink>
                     </li>
                     <li>
-                        <a href="#"><i class="icon-social-instagram"></i></a>
+                        <NuxtLink to="/"><i class="icon-social-instagram"></i></NuxtLink>
                     </li>
                     <li>
-                        <a href="#"><i class="icon-social-google"></i></a>
+                        <NuxtLink to="/"><i class="icon-social-google"></i></NuxtLink>
                     </li>
                     <li>
-                        <a href="#"><i class="icon-social-instagram"></i></a>
+                        <NuxtLink to="/"><i class="icon-social-instagram"></i></NuxtLink>
                     </li>
                 </ul>
             </div>
@@ -504,7 +504,7 @@
                                     Hamsung Galaxy <br />
                                     <strong>S10+ Edge</strong>
                                 </h1>
-                                <a href="shop-4-column.html" class="shop-btn animated">SHOP NOW</a>
+                                <NuxtLink to="/shop-4-column" class="shop-btn animated">SHOP NOW</NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -517,7 +517,7 @@
                                     Bluetooth Gamepad <br />
                                     <strong>IPEGA PG-9023</strong>
                                 </h1>
-                                <a href="shop-4-column.html" class="shop-btn animated">SHOP NOW</a>
+                                <NuxtLink to="/shop-4-column" class="shop-btn animated">SHOP NOW</NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -588,17 +588,17 @@
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
                         <div class="banner-wrapper">
-                            <a href="shop-4-column.html"><img src="~/assets/images/banner-image/1.jpg" alt="" /></a>
+                            <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/1.jpg" alt="" /></NuxtLink>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="banner-wrapper">
-                            <a href="shop-4-column.html"><img src="~/assets/images/banner-image/2.jpg" alt="" /></a>
+                            <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/2.jpg" alt="" /></NuxtLink>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="banner-wrapper">
-                            <a href="shop-4-column.html"><img src="~/assets/images/banner-image/3.jpg" alt="" /></a>
+                            <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/3.jpg" alt="" /></NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -619,104 +619,104 @@
                     <div class="category-slider-wrapper swiper-wrapper">
                         <div class="category-slider-item swiper-slide">
                             <div class="thumb-category">
-                                <a href="single-product.html">
+                                <NuxtLink to="/single-product">
                                     <img src="~/assets/images/product-image/1.jpg" alt="product-image.jpg" />
-                                </a>
+                                </NuxtLink>
                             </div>
                             <div class="category-discript">
                                 <h4>Smart Electronics</h4>
                                 <ul>
-                                    <li><a href="#">Wearable Devices</a></li>
-                                    <li><a href="#">Smart Home Appliances</a></li>
-                                    <li><a href="#">Smart Remote Controls</a></li>
-                                    <li><a href="#">Smart Watches</a></li>
+                                    <li><NuxtLink to="/">Wearable Devices</NuxtLink></li>
+                                    <li><NuxtLink to="/">Smart Home Appliances</NuxtLink></li>
+                                    <li><NuxtLink to="/">Smart Remote Controls</NuxtLink></li>
+                                    <li><NuxtLink to="/">Smart Watches</NuxtLink></li>
                                 </ul>
-                                <a href="shop-4-column.html" class="view-all-btn">View All</a>
+                                <NuxtLink to="/shop-4-column" class="view-all-btn">View All</NuxtLink>
                             </div>
                         </div>
                         <div class="category-slider-item swiper-slide">
                             <div class="thumb-category">
-                                <a href="single-product.html">
+                                <NuxtLink to="/single-product">
                                     <img src="~/assets/images/product-image/2.jpg" alt="product-image.jpg" />
-                                </a>
+                                </NuxtLink>
                             </div>
                             <div class="category-discript">
                                 <h4>Audio & Video</h4>
                                 <ul>
-                                    <li><a href="#">Televisions</a></li>
-                                    <li><a href="#">TV Receivers</a></li>
-                                    <li><a href="#">Projectors</a></li>
-                                    <li><a href="#">TV Sticks</a></li>
+                                    <li><NuxtLink to="/">Televisions</NuxtLink></li>
+                                    <li><NuxtLink to="/">TV Receivers</NuxtLink></li>
+                                    <li><NuxtLink to="/">Projectors</NuxtLink></li>
+                                    <li><NuxtLink to="/">TV Sticks</NuxtLink></li>
                                 </ul>
-                                <a href="shop-4-column.html" class="view-all-btn">View All</a>
+                                <NuxtLink to="/shop-4-column" class="view-all-btn">View All</NuxtLink>
                             </div>
                         </div>
                         <div class="category-slider-item swiper-slide">
                             <div class="thumb-category">
-                                <a href="single-product.html">
+                                <NuxtLink to="/single-product">
                                     <img src="~/assets/images/product-image/3.jpg" alt="product-image.jpg" />
-                                </a>
+                                </NuxtLink>
                             </div>
                             <div class="category-discript">
                                 <h4>Video Games</h4>
                                 <ul>
-                                    <li><a href="#">Handheld Game Players</a></li>
-                                    <li><a href="#">Game Controllers</a></li>
-                                    <li><a href="#">Joysticks</a></li>
-                                    <li><a href="#">Stickers</a></li>
+                                    <li><NuxtLink to="/">Handheld Game Players</NuxtLink></li>
+                                    <li><NuxtLink to="/">Game Controllers</NuxtLink></li>
+                                    <li><NuxtLink to="/">Joysticks</NuxtLink></li>
+                                    <li><NuxtLink to="/">Stickers</NuxtLink></li>
                                 </ul>
-                                <a href="shop-4-column.html" class="view-all-btn">View All</a>
+                                <NuxtLink to="/shop-4-column" class="view-all-btn">View All</NuxtLink>
                             </div>
                         </div>
                         <div class="category-slider-item swiper-slide">
                             <div class="thumb-category">
-                                <a href="single-product.html">
+                                <NuxtLink to="/single-product">
                                     <img src="~/assets/images/product-image/4.jpg" alt="product-image.jpg" />
-                                </a>
+                                </NuxtLink>
                             </div>
                             <div class="category-discript">
                                 <h4>Portable Audio & Video</h4>
                                 <ul>
-                                    <li><a href="#">Headphones</a></li>
-                                    <li><a href="#">Speakers</a></li>
-                                    <li><a href="#">MP3 Players</a></li>
-                                    <li><a href="#">Microphones</a></li>
+                                    <li><NuxtLink to="/">Headphones</NuxtLink></li>
+                                    <li><NuxtLink to="/">Speakers</NuxtLink></li>
+                                    <li><NuxtLink to="/">MP3 Players</NuxtLink></li>
+                                    <li><NuxtLink to="/">Microphones</NuxtLink></li>
                                 </ul>
-                                <a href="shop-4-column.html" class="view-all-btn">View All</a>
+                                <NuxtLink to="/shop-4-column" class="view-all-btn">View All</NuxtLink>
                             </div>
                         </div>
                         <div class="category-slider-item swiper-slide">
                             <div class="thumb-category">
-                                <a href="single-product.html">
+                                <NuxtLink to="/single-product">
                                     <img src="~/assets/images/product-image/5.jpg" alt="product-image.jpg" />
-                                </a>
+                                </NuxtLink>
                             </div>
                             <div class="category-discript">
                                 <h4>Camera & Photo</h4>
                                 <ul>
-                                    <li><a href="#">Digital Cameras</a></li>
-                                    <li><a href="#">Camcorders</a></li>
-                                    <li><a href="#">Camera Drones</a></li>
-                                    <li><a href="#">Action Cameras</a></li>
+                                    <li><NuxtLink to="/">Digital Cameras</NuxtLink></li>
+                                    <li><NuxtLink to="/">Camcorders</NuxtLink></li>
+                                    <li><NuxtLink to="/">Camera Drones</NuxtLink></li>
+                                    <li><NuxtLink to="/">Action Cameras</NuxtLink></li>
                                 </ul>
-                                <a href="shop-4-column.html" class="view-all-btn">View All</a>
+                                <NuxtLink to="/shop-4-column" class="view-all-btn">View All</NuxtLink>
                             </div>
                         </div>
                         <div class="category-slider-item swiper-slide">
                             <div class="thumb-category">
-                                <a href="single-product.html">
+                                <NuxtLink to="/single-product">
                                     <img src="~/assets/images/product-image/1.jpg" alt="product-image.jpg" />
-                                </a>
+                                </NuxtLink>
                             </div>
                             <div class="category-discript">
                                 <h4>Smart Electronics</h4>
                                 <ul>
-                                    <li><a href="#">Wearable Devices</a></li>
-                                    <li><a href="#">Smart Home Appliances</a></li>
-                                    <li><a href="#">Smart Remote Controls</a></li>
-                                    <li><a href="#">Smart Watches</a></li>
+                                    <li><NuxtLink to="/">Wearable Devices</NuxtLink></li>
+                                    <li><NuxtLink to="/">Smart Home Appliances</NuxtLink></li>
+                                    <li><NuxtLink to="/">Smart Remote Controls</NuxtLink></li>
+                                    <li><NuxtLink to="/">Smart Watches</NuxtLink></li>
                                 </ul>
-                                <a href="shop-4-column.html" class="view-all-btn">View All</a>
+                                <NuxtLink to="/shop-4-column" class="view-all-btn">View All</NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -743,24 +743,24 @@
                     <div class="feature-slider-wrapper swiper-wrapper">
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -776,37 +776,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -824,37 +824,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -870,37 +870,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -916,37 +916,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -962,37 +962,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1008,37 +1008,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1054,37 +1054,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/20.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/21.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1100,37 +1100,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/22.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/23.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1146,37 +1146,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/24.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/25.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1192,37 +1192,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/26.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/27.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1238,37 +1238,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1284,37 +1284,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1330,37 +1330,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1376,37 +1376,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/11.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1422,37 +1422,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1468,37 +1468,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="feature-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1514,16 +1514,16 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                     </div>
                     <!-- Add Arrows -->
@@ -1549,24 +1549,24 @@
                     <div class="deal-slider-wrapper swiper-wrapper">
                         <!-- Single Item -->
                         <div class="deal-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/29.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1588,37 +1588,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="deal-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/21.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/23.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1640,37 +1640,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="deal-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/28.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1692,37 +1692,37 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                         <!-- Single Item -->
                         <div class="deal-slider-item swiper-slide">
-                            <article class="list-product">
+                            <NuxtLinkrticle class="list-product">
                                 <div class="img-block">
-                                    <a href="single-product.html" class="thumbnail">
+                                    <NuxtLink to="/single-product" class="thumbnail">
                                         <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                    </a>
+                                    </NuxtLink>
                                     <div class="quick-view">
-                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class="icon-magnifier icons"></i>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                                 <ul class="product-flag">
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs">
-                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -1744,16 +1744,16 @@
                                 </div>
                                 <div class="add-to-link">
                                     <ul>
-                                        <li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+                                        <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                         <li>
-                                            <a href="wishlist.html"><i class="icon-heart"></i></a>
+                                            <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                         </li>
                                         <li>
-                                            <a href="compare.html"><i class="icon-shuffle"></i></a>
+                                            <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
-                            </article>
+                            </NuxtLinkrticle>
                         </div>
                     </div>
                     <!-- Add Arrows -->
@@ -1769,7 +1769,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="banner-wrapper">
-                                <a href="shop-4-column.html"><img src="~/assets/images/banner-image/4.jpg" alt="" /></a>
+                                <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/4.jpg" alt="" /></NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -1786,13 +1786,13 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs sub-category d-flex justify-content-end flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link active" data-bs-toggle="tab" href="#tab-1">Televisions</a>
+                            <NuxtLink class="nav-link active" data-bs-toggle="tab" to="/tab-1">Televisions</NuxtLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">TV Receivers</a>
+                            <NuxtLink class="nav-link" data-bs-toggle="tab" to="/tab-2">TV Receivers</NuxtLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Projectors</a>
+                            <NuxtLink class="nav-link" data-bs-toggle="tab" to="/tab-3">Projectors</NuxtLink>
                         </li>
                     </ul>
                 </div>
@@ -1804,7 +1804,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 mt-lm-55px">
                                 <div class="banner-wrapper">
-                                    <a href="shop-4-column.html"><img src="~/assets/images/banner-image/5.jpg" alt="" /></a>
+                                    <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/5.jpg" alt="" /></NuxtLink>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8">
@@ -1812,24 +1812,24 @@
                                     <div class="feature-slider-wrapper swiper-wrapper">
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -1845,37 +1845,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -1893,37 +1893,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -1939,37 +1939,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -1985,37 +1985,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2031,37 +2031,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2077,37 +2077,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2123,37 +2123,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/20.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/21.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2169,37 +2169,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/22.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/23.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2215,37 +2215,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/24.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/25.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2261,37 +2261,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/26.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/27.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2307,37 +2307,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2353,37 +2353,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2399,37 +2399,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2445,37 +2445,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/11.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2491,37 +2491,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2537,37 +2537,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2583,16 +2583,16 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                     </div>
                                     <!-- Add Arrows -->
@@ -2610,7 +2610,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 mt-lm-55px">
                                 <div class="banner-wrapper">
-                                    <a href="shop-4-column.html"><img src="~/assets/images/banner-image/5.jpg" alt="" /></a>
+                                    <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/5.jpg" alt="" /></NuxtLink>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8">
@@ -2618,24 +2618,24 @@
                                     <div class="feature-slider-wrapper swiper-wrapper">
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2651,37 +2651,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2699,37 +2699,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2745,37 +2745,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2791,37 +2791,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2837,37 +2837,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2883,37 +2883,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2929,37 +2929,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/20.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/21.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -2975,37 +2975,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/22.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/23.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3021,37 +3021,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/24.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/25.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3067,37 +3067,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/26.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/27.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3113,37 +3113,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3159,37 +3159,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3205,37 +3205,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3251,37 +3251,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/11.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3297,37 +3297,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3343,37 +3343,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3389,16 +3389,16 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                     </div>
                                     <!-- Add Arrows -->
@@ -3416,7 +3416,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 mt-lm-55px">
                                 <div class="banner-wrapper">
-                                    <a href="shop-4-column.html"><img src="~/assets/images/banner-image/5.jpg" alt="" /></a>
+                                    <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/5.jpg" alt="" /></NuxtLink>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8">
@@ -3424,24 +3424,24 @@
                                     <div class="feature-slider-wrapper swiper-wrapper">
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3457,37 +3457,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3505,37 +3505,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3551,37 +3551,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3597,37 +3597,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3643,37 +3643,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3689,37 +3689,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3735,37 +3735,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/20.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/21.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3781,37 +3781,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/22.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/23.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3827,37 +3827,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/24.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/25.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3873,37 +3873,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/26.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/27.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3919,37 +3919,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -3965,37 +3965,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4011,37 +4011,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4057,37 +4057,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/11.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4103,37 +4103,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4149,37 +4149,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4195,16 +4195,16 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                     </div>
                                     <!-- Add Arrows -->
@@ -4229,13 +4229,13 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs sub-category d-flex justify-content-end flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link active" data-bs-toggle="tab" href="#tab-4">Digital Cameras</a>
+                            <NuxtLink class="nav-link active" data-bs-toggle="tab" to="/tab-4">Digital Cameras</NuxtLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Camcorders</a>
+                            <NuxtLink class="nav-link" data-bs-toggle="tab" to="/tab-5">Camcorders</NuxtLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-6">Camera Drones</a>
+                            <NuxtLink class="nav-link" data-bs-toggle="tab" to="/tab-6">Camera Drones</NuxtLink>
                         </li>
                     </ul>
                 </div>
@@ -4247,7 +4247,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 mt-lm-55px">
                                 <div class="banner-wrapper">
-                                    <a href="shop-4-column.html"><img src="~/assets/images/banner-image/6.jpg" alt="" /></a>
+                                    <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/6.jpg" alt="" /></NuxtLink>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8">
@@ -4255,24 +4255,24 @@
                                     <div class="feature-slider-wrapper swiper-wrapper">
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4288,37 +4288,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4336,37 +4336,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4382,37 +4382,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4428,37 +4428,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4474,37 +4474,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4520,37 +4520,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4566,37 +4566,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/20.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/21.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4612,37 +4612,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/22.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/23.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4658,37 +4658,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/24.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/25.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4704,37 +4704,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/26.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/27.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4750,37 +4750,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4796,37 +4796,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4842,37 +4842,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4888,37 +4888,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/11.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4934,37 +4934,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -4980,37 +4980,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5026,16 +5026,16 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                     </div>
                                     <!-- Add Arrows -->
@@ -5053,7 +5053,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 mt-lm-55px">
                                 <div class="banner-wrapper">
-                                    <a href="shop-4-column.html"><img src="~/assets/images/banner-image/6.jpg" alt="" /></a>
+                                    <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/6.jpg" alt="" /></NuxtLink>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8">
@@ -5061,24 +5061,24 @@
                                     <div class="feature-slider-wrapper swiper-wrapper">
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5094,37 +5094,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5142,37 +5142,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5188,37 +5188,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5234,37 +5234,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5280,37 +5280,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5326,37 +5326,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5372,37 +5372,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/20.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/21.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5418,37 +5418,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/22.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/23.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5464,37 +5464,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/24.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/25.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5510,37 +5510,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/26.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/27.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5556,37 +5556,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5602,37 +5602,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5648,37 +5648,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5694,37 +5694,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/11.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5740,37 +5740,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5786,37 +5786,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5832,16 +5832,16 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                     </div>
                                     <!-- Add Arrows -->
@@ -5859,7 +5859,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 mt-lm-55px">
                                 <div class="banner-wrapper">
-                                    <a href="shop-4-column.html"><img src="~/assets/images/banner-image/6.jpg" alt="" /></a>
+                                    <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/6.jpg" alt="" /></NuxtLink>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8">
@@ -5867,24 +5867,24 @@
                                     <div class="feature-slider-wrapper swiper-wrapper">
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5900,37 +5900,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5948,37 +5948,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -5994,37 +5994,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6040,37 +6040,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6086,37 +6086,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6132,37 +6132,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6178,37 +6178,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/20.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/21.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6224,37 +6224,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/22.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/23.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6270,37 +6270,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/24.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/25.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6316,37 +6316,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/26.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/27.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6362,37 +6362,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6408,37 +6408,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6454,37 +6454,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6500,37 +6500,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/11.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6546,37 +6546,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/13.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6592,37 +6592,37 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                         <!-- Single Item -->
                                         <div class="feature-slider-item swiper-slide">
-                                            <article class="list-product">
+                                            <NuxtLinkrticle class="list-product">
                                                 <div class="img-block">
-                                                    <a href="single-product.html" class="thumbnail">
+                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                         <img class="first-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                         <img class="second-img" src="~/assets/images/product-image/15.jpg" alt="" />
-                                                    </a>
+                                                    </NuxtLink>
                                                     <div class="quick-view">
-                                                        <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             <i class="icon-magnifier icons"></i>
-                                                        </a>
+                                                        </NuxtLink>
                                                     </div>
                                                 </div>
                                                 <ul class="product-flag">
                                                     <li class="new">New</li>
                                                 </ul>
                                                 <div class="product-decs">
-                                                    <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                                    <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                     <div class="rating-product">
                                                         <i class="ion-android-star"></i>
                                                         <i class="ion-android-star"></i>
@@ -6638,16 +6638,16 @@
                                                 </div>
                                                 <div class="add-to-link">
                                                     <ul>
-                                                        <li class="cart"><a title="Add to cart" href="#"><i class="icon-bag"></i></a></li>
+                                                        <li class="cart"><NuxtLink title="Add to cart" to="/"><i class="icon-bag"></i></NuxtLink></li>
                                                         <li>
-                                                            <a title="Add to wishlist" href="wishlist.html"><i class="icon-heart"></i></a>
+                                                            <NuxtLink title="Add to wishlist" to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                         </li>
                                                         <li>
-                                                            <a title="Add to compare" href="compare.html"><i class="icon-shuffle"></i></a>
+                                                            <NuxtLink title="Add to compare" to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </article>
+                                            </NuxtLinkrticle>
                                         </div>
                                     </div>
                                     <!-- Add Arrows -->
@@ -6670,25 +6670,25 @@
                     <div class="brand-slider slider-nav-style-1 slider-nav-style-2 ">
                         <div class="brand-slider-wrapper swiper-wrapper">
                             <div class="brand-slider-item swiper-slide">
-                                <a href="#"><img src="~/assets/images/brand-logo/1.jpg" alt="" /></a>
+                                <NuxtLink to="/"><img src="~/assets/images/brand-logo/1.jpg" alt="" /></NuxtLink>
                             </div>
                             <div class="brand-slider-item swiper-slide">
-                                <a href="#"><img src="~/assets/images/brand-logo/2.jpg" alt="" /></a>
+                                <NuxtLink to="/"><img src="~/assets/images/brand-logo/2.jpg" alt="" /></NuxtLink>
                             </div>
                             <div class="brand-slider-item swiper-slide">
-                                <a href="#"><img src="~/assets/images/brand-logo/3.jpg" alt="" /></a>
+                                <NuxtLink to="/"><img src="~/assets/images/brand-logo/3.jpg" alt="" /></NuxtLink>
                             </div>
                             <div class="brand-slider-item swiper-slide">
-                                <a href="#"><img src="~/assets/images/brand-logo/4.jpg" alt="" /></a>
+                                <NuxtLink to="/"><img src="~/assets/images/brand-logo/4.jpg" alt="" /></NuxtLink>
                             </div>
                             <div class="brand-slider-item swiper-slide">
-                                <a href="#"><img src="~/assets/images/brand-logo/5.jpg" alt="" /></a>
+                                <NuxtLink to="/"><img src="~/assets/images/brand-logo/5.jpg" alt="" /></NuxtLink>
                             </div>
                             <div class="brand-slider-item swiper-slide">
-                                <a href="#"><img src="~/assets/images/brand-logo/1.jpg" alt="" /></a>
+                                <NuxtLink to="/"><img src="~/assets/images/brand-logo/1.jpg" alt="" /></NuxtLink>
                             </div>
                             <div class="brand-slider-item swiper-slide">
-                                <a href="#"><img src="~/assets/images/brand-logo/2.jpg" alt="" /></a>
+                                <NuxtLink to="/"><img src="~/assets/images/brand-logo/2.jpg" alt="" /></NuxtLink>
                             </div>
                         </div>
                         <!-- Add Arrows -->
@@ -6714,21 +6714,21 @@
                     <div class="recent-slider slider-nav-style-1">
                         <div class="recent-slider-wrapper swiper-wrapper">
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6742,24 +6742,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6775,24 +6775,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/15.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/16.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6806,24 +6806,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/17.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/18.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>Graphic Corner</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>Graphic Corner</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6837,24 +6837,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/19.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/20.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6868,24 +6868,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/21.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/22.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>Graphic Corner</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>Graphic Corner</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6901,24 +6901,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/23.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/24.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6932,24 +6932,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/25.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/26.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6963,24 +6963,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/27.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/28.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -6994,24 +6994,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/29.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/29.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -7025,24 +7025,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -7056,24 +7056,24 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                             <div class="recent-slider-item swiper-slide">
-                                <article class="list-product">
+                                <NuxtLinkrticle class="list-product">
                                     <div class="img-block">
-                                        <a href="single-product.html" class="thumbnail">
+                                        <NuxtLink to="/single-product" class="thumbnail">
                                             <img class="first-img" src="~/assets/images/product-image/11.jpg" alt="" />
                                             <img class="second-img" src="~/assets/images/product-image/12.jpg" alt="" />
-                                        </a>
+                                        </NuxtLink>
                                         <div class="quick-view">
-                                            <a class="quick_view" href="#" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <NuxtLink class="quick_view" to="/" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="icon-magnifier icons"></i>
-                                            </a>
+                                            </NuxtLink>
                                         </div>
                                     </div>
                                     <div class="product-decs">
-                                        <a class="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
-                                        <h2><a href="single-product.html" class="product-link">New Balance Arishi Sport v1</a></h2>
+                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                         <div class="rating-product">
                                             <i class="ion-android-star"></i>
                                             <i class="ion-android-star"></i>
@@ -7087,7 +7087,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </article>
+                                </NuxtLinkrticle>
                             </div>
                         </div>
                         <!-- Add Arrows -->
@@ -7105,12 +7105,12 @@
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <div class="banner-wrapper">
-                            <a href="shop-4-column.html"><img src="~/assets/images/banner-image/7.jpg" alt="" /></a>
+                            <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/7.jpg" alt="" /></NuxtLink>
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12">
                         <div class="banner-wrapper">
-                            <a href="shop-4-column.html"><img src="~/assets/images/banner-image/8.jpg" alt="" /></a>
+                            <NuxtLink to="/shop-4-column"><img src="~/assets/images/banner-image/8.jpg" alt="" /></NuxtLink>
                         </div>
                     </div>
                 </div>

@@ -106,8 +106,8 @@
                         <div class="row">
                             <div class="col-md-6">
                                 
-								<p class="copy-text"> © 2021 <strong>Rozer</strong> Made With <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> By <NuxtLink class="company-name" to="/https://hasthemes.com/">
-                                <strong> HasThemes</strong></NuxtLink>.</p>
+								<p class="copy-text"> © 2021 <strong>Rozer</strong> Convert With <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> By <NuxtLink class="company-name" target="_blank" to="https://amirmaghami.ir/">
+                                <strong> Amir Maghami</strong></NuxtLink>.</p>
                             </div>
                             <div class="col-md-6 text-end">
                                 <img class="payment-img" src="~/assets/images/icons/payment.png" alt="" />
