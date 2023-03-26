@@ -1,4 +1,4 @@
-<template>to="/
+<template>
 
             <!-- Shop Category Area End -->
             <div class="shop-category-area blog-grid mtb-60px">
