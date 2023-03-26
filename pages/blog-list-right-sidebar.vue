@@ -10,14 +10,14 @@
                                     <div class="single-blog-post blog-list-post">
                                         <div class="blog-post-media">
                                             <div class="blog-image">
-                                                <NuxtLink to="/blog-single-left-sidebar.html"><img class="img-responsive" src="~/assets/images/blog-image/blog-1.jpg" alt="blog" /></NuxtLink>
+                                                <NuxtLink to="/blog-single-left-sidebar"><img class="img-responsive" src="~/assets/images/blog-image/blog-1.jpg" alt="blog" /></NuxtLink>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-7 col-md-6 align-self-center align-items-center">
                                     <div class="blog-post-content-inner mt-lm-30px">
-                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar.html">This is Third Post For XipBlog</NuxtLink></h4>
+                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar">This is Third Post For XipBlog</NuxtLink></h4>
                                         <ul class="blog-page-meta">
                                             <li>
                                                 <NuxtLink to="/"><i class="ion-person"></i> Admin</NuxtLink>
@@ -30,7 +30,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius expedita hic, vel minima minus reiciendis consequuntur ab beatae necessitatibus amet magni itaque, nostrum vero eos nobis modi
                                             temporibus recusandae.
                                         </p>
-                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar.html"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
+                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
                                     </div>
                                 </div>
                                 <!-- single blog post -->
@@ -42,13 +42,13 @@
                                             <div class="blog-gallery swiper-container slider-nav-style-1">
                                                 <div class="blog-gallery swiper-wrapper">
                                                     <div class="gallery-item swiper-slide">
-                                                        <NuxtLink to="/blog-single-left-sidebar.html"><img src="~/assets/images/blog-image/blog-2.jpg" alt="blog" class="img-responsive" /></NuxtLink>
+                                                        <NuxtLink to="/blog-single-left-sidebar"><img src="~/assets/images/blog-image/blog-2.jpg" alt="blog" class="img-responsive" /></NuxtLink>
                                                     </div>
                                                     <div class="gallery-item swiper-slide">
-                                                        <NuxtLink to="/blog-single-left-sidebar.html"><img src="~/assets/images/blog-image/blog-3.jpg" alt="blog" class="img-responsive" /></NuxtLink>
+                                                        <NuxtLink to="/blog-single-left-sidebar"><img src="~/assets/images/blog-image/blog-3.jpg" alt="blog" class="img-responsive" /></NuxtLink>
                                                     </div>
                                                     <div class="gallery-item swiper-slide">
-                                                        <NuxtLink to="/blog-single-left-sidebar.html"><img src="~/assets/images/blog-image/blog-4.jpg" alt="blog" class="img-responsive" /></NuxtLink>
+                                                        <NuxtLink to="/blog-single-left-sidebar"><img src="~/assets/images/blog-image/blog-4.jpg" alt="blog" class="img-responsive" /></NuxtLink>
                                                     </div>
                                                 </div>
                                                 <!-- Add Arrows -->
@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="col-lg-7 col-md-6 align-self-center align-items-center">
                                     <div class="blog-post-content-inner mt-lm-30px">
-                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar.html">This is Third Post For XipBlog</NuxtLink></h4>
+                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar">This is Third Post For XipBlog</NuxtLink></h4>
                                         <ul class="blog-page-meta">
                                             <li>
                                                 <NuxtLink to="/"><i class="ion-person"></i> Admin</NuxtLink>
@@ -75,7 +75,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius expedita hic, vel minima minus reiciendis consequuntur ab beatae necessitatibus amet magni itaque, nostrum vero eos nobis modi
                                             temporibus recusandae.
                                         </p>
-                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar.html"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
+                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
                                     </div>
                                 </div>
                                 <!-- single blog post -->
@@ -98,7 +98,7 @@
                                 </div>
                                 <div class="col-lg-7 col-md-6 align-self-center align-items-center">
                                     <div class="blog-post-content-inner mt-lm-30px">
-                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar.html">This is Third Post For XipBlog</NuxtLink></h4>
+                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar">This is Third Post For XipBlog</NuxtLink></h4>
                                         <ul class="blog-page-meta">
                                             <li>
                                                 <NuxtLink to="/"><i class="ion-person"></i> Admin</NuxtLink>
@@ -111,7 +111,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius expedita hic, vel minima minus reiciendis consequuntur ab beatae necessitatibus amet magni itaque, nostrum vero eos nobis modi
                                             temporibus recusandae.
                                         </p>
-                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar.html"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
+                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
                                     </div>
                                 </div>
                                 <!-- single blog post -->
@@ -128,7 +128,7 @@
                                 </div>
                                 <div class="col-lg-7 col-md-6 align-self-center align-items-center">
                                     <div class="blog-post-content-inner mt-lm-30px">
-                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar.html">This is Third Post For XipBlog</NuxtLink></h4>
+                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar">This is Third Post For XipBlog</NuxtLink></h4>
                                         <ul class="blog-page-meta">
                                             <li>
                                                 <NuxtLink to="/"><i class="ion-person"></i> Admin</NuxtLink>
@@ -141,7 +141,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius expedita hic, vel minima minus reiciendis consequuntur ab beatae necessitatibus amet magni itaque, nostrum vero eos nobis modi
                                             temporibus recusandae.
                                         </p>
-                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar.html"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
+                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
                                     </div>
                                 </div>
                                 <!-- single blog post -->
@@ -151,14 +151,14 @@
                                     <div class="single-blog-post blog-list-post">
                                         <div class="blog-post-media">
                                             <div class="blog-image">
-                                                <NuxtLink to="/blog-single-left-sidebar.html"><img class="img-responsive" src="~/assets/images/blog-image/blog-3.jpg" alt="blog" /></NuxtLink>
+                                                <NuxtLink to="/blog-single-left-sidebar"><img class="img-responsive" src="~/assets/images/blog-image/blog-3.jpg" alt="blog" /></NuxtLink>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-7 col-md-6 align-self-center align-items-center">
                                     <div class="blog-post-content-inner mt-lm-30px">
-                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar.html">This is Third Post For XipBlog</NuxtLink></h4>
+                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar">This is Third Post For XipBlog</NuxtLink></h4>
                                         <ul class="blog-page-meta">
                                             <li>
                                                 <NuxtLink to="/"><i class="ion-person"></i> Admin</NuxtLink>
@@ -171,7 +171,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius expedita hic, vel minima minus reiciendis consequuntur ab beatae necessitatibus amet magni itaque, nostrum vero eos nobis modi
                                             temporibus recusandae.
                                         </p>
-                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar.html"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
+                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
                                     </div>
                                 </div>
                                 <!-- single blog post -->
@@ -182,14 +182,14 @@
                                     <div class="single-blog-post blog-list-post">
                                         <div class="blog-post-media">
                                             <div class="blog-image">
-                                                <NuxtLink to="/blog-single-left-sidebar.html"><img class="img-responsive" src="~/assets/images/blog-image/blog-4.jpg" alt="blog" /></NuxtLink>
+                                                <NuxtLink to="/blog-single-left-sidebar"><img class="img-responsive" src="~/assets/images/blog-image/blog-4.jpg" alt="blog" /></NuxtLink>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-7 col-md-6 align-self-center align-items-center">
                                     <div class="blog-post-content-inner mt-lm-30px">
-                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar.html">This is Third Post For XipBlog</NuxtLink></h4>
+                                        <h4 class="blog-title"><NuxtLink to="/blog-single-left-sidebar">This is Third Post For XipBlog</NuxtLink></h4>
                                         <ul class="blog-page-meta">
                                             <li>
                                                 <NuxtLink to="/"><i class="ion-person"></i> Admin</NuxtLink>
@@ -202,7 +202,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius expedita hic, vel minima minus reiciendis consequuntur ab beatae necessitatibus amet magni itaque, nostrum vero eos nobis modi
                                             temporibus recusandae.
                                         </p>
-                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar.html"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
+                                        <NuxtLink class="read-more-btn" to="/blog-single-left-sidebar"> Read More <i class="ion-android-arrow-dropright-circle"></i></NuxtLink>
                                     </div>
                                 </div>
                                 <!-- single blog post -->
@@ -258,37 +258,37 @@
                                     <div class="recent-post-widget">
                                         <div class="recent-single-post d-flex">
                                             <div class="thumb-side">
-                                                <NuxtLink to="/blog-single-left-sidebar.html"><img  src="~/assets/images/blog-image/blog-1.jpg" alt="" /></NuxtLink>
+                                                <NuxtLink to="/blog-single-left-sidebar"><img  src="~/assets/images/blog-image/blog-1.jpg" alt="" /></NuxtLink>
                                             </div>
                                             <div class="media-side">
-                                                <h5><NuxtLink to="/blog-single-left-sidebar.html">This Is First Post For XipBlog </NuxtLink></h5>
+                                                <h5><NuxtLink to="/blog-single-left-sidebar">This Is First Post For XipBlog </NuxtLink></h5>
                                                 <span class="date">APRIL 24, 2020</span>
                                             </div>
                                         </div>
                                         <div class="recent-single-post d-flex">
                                             <div class="thumb-side">
-                                                <NuxtLink to="/blog-single-left-sidebar.html"><img  src="~/assets/images/blog-image/blog-2.jpg" alt="" /></NuxtLink>
+                                                <NuxtLink to="/blog-single-left-sidebar"><img  src="~/assets/images/blog-image/blog-2.jpg" alt="" /></NuxtLink>
                                             </div>
                                             <div class="media-side">
-                                                <h5><NuxtLink to="/blog-single-left-sidebar.html">This Is Secound Post For XipBlog </NuxtLink></h5>
+                                                <h5><NuxtLink to="/blog-single-left-sidebar">This Is Secound Post For XipBlog </NuxtLink></h5>
                                                 <span class="date">APRIL 25, 2020</span>
                                             </div>
                                         </div>
                                         <div class="recent-single-post d-flex">
                                             <div class="thumb-side">
-                                                <NuxtLink to="/blog-single-left-sidebar.html"><img  src="~/assets/images/blog-image/blog-3.jpg" alt="" /></NuxtLink>
+                                                <NuxtLink to="/blog-single-left-sidebar"><img  src="~/assets/images/blog-image/blog-3.jpg" alt="" /></NuxtLink>
                                             </div>
                                             <div class="media-side">
-                                                <h5><NuxtLink to="/blog-single-left-sidebar.html">This Is Third Post For XipBlog </NuxtLink></h5>
+                                                <h5><NuxtLink to="/blog-single-left-sidebar">This Is Third Post For XipBlog </NuxtLink></h5>
                                                 <span class="date">APRIL 26, 2020</span>
                                             </div>
                                         </div>
                                         <div class="recent-single-post d-flex">
                                             <div class="thumb-side m-0px">
-                                                <NuxtLink to="/blog-single-left-sidebar.html"><img src="~/assets/images/blog-image/blog-4.jpg" alt="" /></NuxtLink>
+                                                <NuxtLink to="/blog-single-left-sidebar"><img src="~/assets/images/blog-image/blog-4.jpg" alt="" /></NuxtLink>
                                             </div>
                                             <div class="media-side">
-                                                <h5><NuxtLink to="/blog-single-left-sidebar.html">This Is Fourth Post For XipBlog </NuxtLink></h5>
+                                                <h5><NuxtLink to="/blog-single-left-sidebar">This Is Fourth Post For XipBlog </NuxtLink></h5>
                                                 <span class="date">APRIL 27, 2020</span>
                                             </div>
                                         </div>

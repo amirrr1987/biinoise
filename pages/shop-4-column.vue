@@ -45,7 +45,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                         </NuxtLink>
@@ -59,8 +59,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Juicy Couture Juicy Quilted T..</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Juicy Couture Juicy Quilted T..</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -80,10 +80,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -92,7 +92,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
                                                         </NuxtLink>
@@ -106,8 +106,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">New Balance Fresh Foam Ka..</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Fresh Foam Ka..</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -127,10 +127,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -139,7 +139,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         </NuxtLink>
@@ -153,8 +153,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Brixton Patrol All Terrain..</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Brixton Patrol All Terrain..</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -172,10 +172,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -184,7 +184,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         </NuxtLink>
@@ -198,8 +198,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Juicy Couture Tricot Logo S..</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Juicy Couture Tricot Logo S..</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -217,10 +217,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -229,7 +229,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/6.jpg" alt="" />
                                                         </NuxtLink>
@@ -243,8 +243,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Arishi Sport v1</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -262,10 +262,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -274,7 +274,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                         </NuxtLink>
@@ -288,8 +288,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNAR</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Fila Locker Room Varsit...</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNAR</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Fila Locker Room Varsit...</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -307,10 +307,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -319,7 +319,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         </NuxtLink>
@@ -333,8 +333,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Water and Wind Resista..</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Water and Wind Resista..</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -352,10 +352,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -364,7 +364,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         </NuxtLink>
@@ -378,8 +378,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">New Luxury Men's Slim Fi...</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">New Luxury Men's Slim Fi...</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -397,10 +397,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -409,7 +409,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/17.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
                                                         </NuxtLink>
@@ -423,8 +423,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Originals Kaval Win...</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Originals Kaval Win...</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -444,10 +444,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -456,7 +456,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                         </NuxtLink>
@@ -470,8 +470,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Brixton Patrol All Terra...</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Brixton Patrol All Terra...</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -489,10 +489,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -501,7 +501,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/11.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                         </NuxtLink>
@@ -515,8 +515,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Madden by Steve Madden C...</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Madden by Steve Madden C...</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -536,10 +536,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -548,7 +548,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/19.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         </NuxtLink>
@@ -562,8 +562,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Juicy Couture Juicy Quilted T..</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Juicy Couture Juicy Quilted T..</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -583,10 +583,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -595,7 +595,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                         </NuxtLink>
@@ -609,8 +609,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Juicy Couture Juicy Quilted T..</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Juicy Couture Juicy Quilted T..</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -630,10 +630,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -642,7 +642,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/19.jpg" alt="" />
                                                         </NuxtLink>
@@ -656,8 +656,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">New Balance Fresh Foam Ka..</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">New Balance Fresh Foam Ka..</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -677,10 +677,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -689,7 +689,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                         </NuxtLink>
@@ -703,8 +703,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Brixton Patrol All Terra...</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Brixton Patrol All Terra...</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -722,10 +722,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -734,7 +734,7 @@
                                             <div class="col-xl-3 col-md-4 col-sm-6 ">
                                                 <NuxtLinkrticle class="list-product">
                                                     <div class="img-block">
-                                                        <NuxtLink to="/single-product.html" class="thumbnail">
+                                                        <NuxtLink to="/single-product" class="thumbnail">
                                                             <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                             <img class="second-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                         </NuxtLink>
@@ -748,8 +748,8 @@
                                                         <li class="new">New</li>
                                                     </ul>
                                                     <div class="product-decs">
-                                                        <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                        <h2><NuxtLink to="/single-product.html" class="product-link">Juicy Couture Tricot Log...</NuxtLink></h2>
+                                                        <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                        <h2><NuxtLink to="/single-product" class="product-link">Juicy Couture Tricot Log...</NuxtLink></h2>
                                                         <div class="rating-product">
                                                             <i class="ion-android-star"></i>
                                                             <i class="ion-android-star"></i>
@@ -767,10 +767,10 @@
                                                         <ul>
                                                             <li class="cart"><NuxtLink class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                             <li>
-                                                                <NuxtLink to="/wishlist.html"><i class="icon-heart"></i></NuxtLink>
+                                                                <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
                                                             </li>
                                                             <li>
-                                                                <NuxtLink to="/compare.html"><i class="icon-shuffle"></i></NuxtLink>
+                                                                <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -788,7 +788,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/7.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/8.jpg" alt="" />
                                                                     </NuxtLink>
@@ -806,8 +806,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -833,10 +833,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -854,7 +854,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/9.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/10.jpg" alt="" />
                                                                     </NuxtLink>
@@ -872,8 +872,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Juicy Couture Tricot Logo Stripe Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Juicy Couture Tricot Logo Stripe Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -899,10 +899,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -920,7 +920,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/11.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                                     </NuxtLink>
@@ -938,8 +938,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">New Balance Fresh Foam LAZR v1 Sport</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Fresh Foam LAZR v1 Sport</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -965,10 +965,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -986,7 +986,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/13.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1004,8 +1004,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Juicy Couture Solid Sleeve Puffer Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Juicy Couture Solid Sleeve Puffer Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1031,10 +1031,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1052,7 +1052,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/15.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1070,8 +1070,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">New Balance Fresh Foam Kaymin</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Fresh Foam Kaymin</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1097,10 +1097,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1118,7 +1118,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/17.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1136,8 +1136,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Water and Wind Resistant Insulated Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Water and Wind Resistant Insulated Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1163,10 +1163,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1184,7 +1184,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/19.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/20.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1202,8 +1202,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Trans-Weight Hooded Wind and Water Resistant Shell</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Trans-Weight Hooded Wind and Water Resistant Shell</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1229,10 +1229,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1250,7 +1250,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/21.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/22.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1268,8 +1268,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Madden by Steve Madden Cale 6</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Madden by Steve Madden Cale 6</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1295,10 +1295,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1316,7 +1316,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/23.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/24.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1334,8 +1334,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Calvin Klein Jeans Reflective Logo Full Zip</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Calvin Klein Jeans Reflective Logo Full Zip</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1361,10 +1361,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1382,7 +1382,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/25.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/26.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1400,8 +1400,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">New Balance Fresh Foam Arishi Sport</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">New Balance Fresh Foam Arishi Sport</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1427,10 +1427,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1448,7 +1448,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/27.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/28.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1466,8 +1466,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>STUDIO DESIGN</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Juicy Couture Juicy Quilted Terry Track Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>STUDIO DESIGN</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Juicy Couture Juicy Quilted Terry Track Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1493,10 +1493,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1514,7 +1514,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/29.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/17.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1532,8 +1532,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1559,10 +1559,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1580,7 +1580,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/11.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/12.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1598,8 +1598,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1625,10 +1625,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1646,7 +1646,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/17.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/18.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1664,8 +1664,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1691,10 +1691,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1712,7 +1712,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/13.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/14.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1730,8 +1730,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1757,10 +1757,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -1778,7 +1778,7 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                                                             <div class="left-img">
                                                                 <div class="img-block">
-                                                                    <NuxtLink to="/single-product.html" class="thumbnail">
+                                                                    <NuxtLink to="/single-product" class="thumbnail">
                                                                         <img class="first-img" src="~/assets/images/product-image/15.jpg" alt="" />
                                                                         <img class="second-img" src="~/assets/images/product-image/16.jpg" alt="" />
                                                                     </NuxtLink>
@@ -1796,8 +1796,8 @@
                                                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                                                             <div class="product-desc-wrap">
                                                                 <div class="product-decs">
-                                                                    <NuxtLink class="inner-link" to="/shop-4-column.html"><span>GRAPHIC CORNER</span></NuxtLink>
-                                                                    <h2><NuxtLink to="/single-product.html" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
+                                                                    <NuxtLink class="inner-link" to="/shop-4-column"><span>GRAPHIC CORNER</span></NuxtLink>
+                                                                    <h2><NuxtLink to="/single-product" class="product-link">Fila Locker Room Varsity Jacket</NuxtLink></h2>
                                                                     <div class="rating-product">
                                                                         <i class="ion-android-star"></i>
                                                                         <i class="ion-android-star"></i>
@@ -1823,10 +1823,10 @@
                                                                         <ul>
                                                                             <li class="cart"><NuxtLink title="Add to cart" class="cart-btn" to="/">ADD TO CART </NuxtLink></li>
                                                                             <li>
-                                                                                <NuxtLink to="/wishlist.html" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
+                                                                                <NuxtLink to="/wishlist" title="Add to wishlist"><i class="icon-heart"></i> Add to Wishlist</NuxtLink>
                                                                             </li>
                                                                             <li>
-                                                                                <NuxtLink to="/compare.html" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
+                                                                                <NuxtLink to="/compare" title="Add to compare"><i class="icon-shuffle"></i> Add to Compare</NuxtLink>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
