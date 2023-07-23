@@ -1,24 +1,5 @@
 <template>
-  <header>
-     <nav class="bg-blue text-white py-2">
-      <Container>
-        <ul class="flex gap-x-2">
-          <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/">home</NuxtLink>
-          <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/blogs">blogs</NuxtLink>
-        </ul>
-      </Container>
-    </nav>
-
-    <Container>
-      <a-breadcrumb class="py-4">
-        <a-breadcrumb-item><NuxtLink to="/">Home</NuxtLink></a-breadcrumb-item>
-        <a-breadcrumb-item><NuxtLink to="/blogs">blogs</NuxtLink></a-breadcrumb-item>
-        <a-breadcrumb-item><NuxtLink to="/">Home</NuxtLink></a-breadcrumb-item>
-        <a-breadcrumb-item><NuxtLink to="/">Home</NuxtLink></a-breadcrumb-item>
-      </a-breadcrumb>
-    </Container>
-   
-  </header>
+  <TheHeader />
   <main>
     <!-- blog post content here -->
     <slot />

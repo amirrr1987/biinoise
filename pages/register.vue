@@ -2,7 +2,7 @@
     <section class="h-screen flex items-center">
 
         <Container>
-            <img class="mx-auto block" src="../assets/logo.png" alt="" srcset="" />
+            <img class="mx-auto block" src="@/assets/images/logo/logo.png" alt="" srcset="" />
     <a-form layout="vertical" class="w-2/5 mx-auto shadow p-8">
         <a-form-item label="Username">
             <a-input></a-input>

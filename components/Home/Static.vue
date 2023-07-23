@@ -2,7 +2,7 @@
   <section class="py-12">
     <Container>
       <div class="flex justify-between gap-8 flex-warp">
-        <template>
+        
           <div
             class="flex gap-4 select-none"
             v-for="(item, index) in myData"
@@ -16,7 +16,6 @@
               </div>
             </div>
           </div>
-        </template>
       </div>
     </Container>
   </section>
@@ -49,7 +48,7 @@ const myData = reactive<Item[]>([
     caption: "Your payment are safe with us.",
   },
 ]);
-const getImage = (index: string) => {
-  return src ? `../assets/images/icons/static-icons-${index}.png` : "";
+const getImage = (index: number) => {
+  return index ? `../assets/images/icons/static-icons-${index}.png` : "";
 };
 </script>
