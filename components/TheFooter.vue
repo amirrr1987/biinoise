@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-blue-500 text-white">
-    <Container>
+    <TheContainer>
       <div class="grid grid-cols-12 gap-8 py-12">
         <div class="col-span-12 md:col-span-4 lg:col-span-4">
           <h3 class="font-medium text-lg mb-2">About US</h3>
@@ -10,19 +10,41 @@
             HTML template
           </p>
           <NuxtLink to="/">
-            <img src="@/assets/images/logo/logo-2.png" alt="" />
+            <img src="@/assets/images/logo/logo-2.png" title="rozer" alt="rozer" />
           </NuxtLink>
         </div>
         <div class="col-span-12 md:col-span-4 lg:col-span-2">
           <h3 class="font-medium text-lg mb-2">Information</h3>
           <a-divider class="my-2 border-blue"></a-divider>
           <ul class="list-none">
-            <li><NuxtLink class="text-light no-underline" to="/">Delivery</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">About Us</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">Secure Payment</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">Contact Us</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">Sitemap</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">Stores</NuxtLink></li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >Delivery</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >About Us</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >Secure Payment</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >Contact Us</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >Sitemap</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/">Stores</NuxtLink>
+            </li>
           </ul>
         </div>
 
@@ -30,12 +52,34 @@
           <h3 class="font-medium text-lg mb-2">Custom Links</h3>
           <a-divider class="my-2 border-blue"></a-divider>
           <ul class="list-none">
-            <li><NuxtLink class="text-light no-underline" to="/">Legal Notice</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">Prices Drop</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">New Products</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">Best Sales</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">Login</NuxtLink></li>
-            <li><NuxtLink class="text-light no-underline" to="/">My Account</NuxtLink></li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >Legal Notice</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >Prices Drop</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >New Products</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >Best Sales</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/">Login</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink class="text-light no-underline" to="/"
+                >My Account</NuxtLink
+              >
+            </li>
           </ul>
         </div>
 
@@ -86,15 +130,27 @@
           </div>
         </div>
       </div>
-    </Container>
+    </TheContainer>
     <a-divider class="my-0"></a-divider>
-    <Container>
+    <TheContainer>
       <div class="flex justify-between py-4">
-        <span>© 2021 Rozer Made With By <NuxtLink class="text-light no-underline" to="/amirmaghami.ir">Amir Maghami</NuxtLink>.</span>
+        <span
+          >© 2021 Rozer Made With By
+          <NuxtLink class="text-light no-underline" to="/amirmaghami.ir"
+            >Amir Maghami</NuxtLink
+          >.</span
+        >
         <div>
           <img src="@/assets/images/icons/payment.png" title="" alt="" />
         </div>
       </div>
-    </Container>
+    </TheContainer>
   </footer>
 </template>
+<style lang="less">
+.c{
+  .d{
+    background-color: red;
+  }
+}
+</style>

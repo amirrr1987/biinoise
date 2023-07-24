@@ -1,6 +1,6 @@
 <template>
-    <section class="py-12">
-    <Container>
+  <section class="py-12">
+    <TheContainer>
       <h3>Popular Categories</h3>
       <Icon name="uil:github" color="black" />
 
@@ -11,7 +11,7 @@
             <img
               alt="example"
               class="w-40"
-              :src="`../assets/images/product-image/1${index+1}.jpg`"
+              :src="`../assets/images/product-image/1${index + 1}.jpg`"
             />
           </template>
           <template #actions>
@@ -21,11 +21,13 @@
           </template>
           <a-card-meta title="Card title" description="This is the description">
             <template #avatar>
-              <a-avatar :src="`../assets/images/product-image/1${index+1}.jpg`" />
+              <a-avatar
+                :src="`../assets/images/product-image/1${index + 1}.jpg`"
+              />
             </template>
           </a-card-meta>
         </a-card>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>

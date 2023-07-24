@@ -1,6 +1,6 @@
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <h3 class="mb-4">Your cart items</h3>
       <a-table :dataSource="dataSource" :columns="columns">
         <template #bodyCell="{ column, text }" maxWidth="200">
@@ -20,7 +20,7 @@
           </template>
         </template>
       </a-table>
-    </Container>
+    </TheContainer>
   </section>
 </template>
 <script lang="ts" setup>

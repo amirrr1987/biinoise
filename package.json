@@ -19,6 +19,9 @@
     "nuxt-lodash": "^2.5.0"
   },
   "dependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.3",
     "vue3-carousel-nuxt": "^1.1.0"
   }
 }

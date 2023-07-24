@@ -1,15 +1,12 @@
 <template>
-    <section class="py-12 bg-gray-50">
-    <Container>
+  <section class="py-12 bg-gray-50">
+    <TheContainer>
       <h3>Featured Products</h3>
       <a-divider class="mt-4"></a-divider>
       <div class="grid grid-cols-2 gap-8">
         <a-card v-for="(category, index) in 2" :key="index">
           <template #cover>
-            <img
-              alt="example"
-              src=""
-            />
+            <img alt="example" src="" />
           </template>
           <template #actions>
             <setting-outlined key="setting" />
@@ -30,6 +27,6 @@
           alt=""
         />
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>

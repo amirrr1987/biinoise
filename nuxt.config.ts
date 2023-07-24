@@ -12,5 +12,14 @@ export default defineNuxtConfig({
   antd: {
     // Options
   },
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  build: {
+    loaders: {
+      less: {
+        lessOptions: {
+          javascriptEnabled: true,
+        },
+      },
+    },
+  },
 })

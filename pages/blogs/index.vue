@@ -1,6 +1,6 @@
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <div class="grid grid-cols-12 gap-8">
         <div class="col-span-3">
           <legend>search</legend>
@@ -90,7 +90,7 @@
           />
         </div>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>
 <script setup lang="ts">

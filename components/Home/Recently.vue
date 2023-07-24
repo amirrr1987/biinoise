@@ -1,6 +1,6 @@
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <h3 class="">Recently Added</h3>
       <a-divider class="mt-4"></a-divider>
       <Carousel v-bind="settings" :breakpoints="breakpoints">
@@ -19,7 +19,7 @@
           <Navigation />
         </template>
       </Carousel>
-    </Container>
+    </TheContainer>
   </section>
 </template>
 <script setup lang="ts">

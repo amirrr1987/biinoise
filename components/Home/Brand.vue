@@ -1,12 +1,12 @@
 <!-- <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <div class="grid grid-cols-5 gap-8">
         <NuxtLink v-for="brand in brands" :key="brand.id" :to="`/${brand.id}`">
           <img :src="`../assets/images/brand-logo/${brand.id}.jpg`" alt="" />
         </NuxtLink>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>
 <script setup lang="ts">
@@ -25,7 +25,7 @@ const brands = reactive([
 
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <h3 class="">Recently Added</h3>
       <a-divider class="mt-4"></a-divider>
       <Carousel
@@ -50,7 +50,7 @@ const brands = reactive([
           <Navigation />
         </template>
       </Carousel>
-    </Container>
+    </TheContainer>
   </section>
 </template>
 <script setup lang="ts">

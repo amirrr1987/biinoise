@@ -1,6 +1,6 @@
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <div class="py-12">
         <iframe
           width="100%"
@@ -13,7 +13,9 @@
         />
       </div>
       <div class="grid grid-cols-12 gap-4">
-        <div class="col-span-4 bg-gray-200 rounded flex flex-col gap-4 px-17 py-10">
+        <div
+          class="col-span-4 bg-gray-200 rounded flex flex-col gap-4 px-17 py-10"
+        >
           <div class="flex items-center gap-x-4">
             <Icon name="tabler:brand-github" size="32" />
             <div class="">
@@ -45,11 +47,21 @@
           <div class="">
             <h4 class="text-xl mb-2">Flow US</h4>
             <div class="">
-              <NuxtLink to="/" class="text-dark hover:text-blue-500"><Icon name="tabler:brand-facebook" size="32" /></NuxtLink>
-              <NuxtLink to="/" class="text-dark hover:text-blue-500"><Icon name="tabler:brand-instagram" size="32" /></NuxtLink>
-              <NuxtLink to="/" class="text-dark hover:text-blue-500"><Icon name="tabler:brand-telegram" size="32" /></NuxtLink>
-              <NuxtLink to="/" class="text-dark hover:text-blue-500"><Icon name="tabler:brand-meta" size="32" /></NuxtLink>
-              <NuxtLink to="/" class="text-dark hover:text-blue-500"><Icon name="tabler:brand-apple" size="32" /></NuxtLink>
+              <NuxtLink to="/" class="text-dark hover:text-blue-500"
+                ><Icon name="tabler:brand-facebook" size="32"
+              /></NuxtLink>
+              <NuxtLink to="/" class="text-dark hover:text-blue-500"
+                ><Icon name="tabler:brand-instagram" size="32"
+              /></NuxtLink>
+              <NuxtLink to="/" class="text-dark hover:text-blue-500"
+                ><Icon name="tabler:brand-telegram" size="32"
+              /></NuxtLink>
+              <NuxtLink to="/" class="text-dark hover:text-blue-500"
+                ><Icon name="tabler:brand-meta" size="32"
+              /></NuxtLink>
+              <NuxtLink to="/" class="text-dark hover:text-blue-500"
+                ><Icon name="tabler:brand-apple" size="32"
+              /></NuxtLink>
             </div>
           </div>
         </div>
@@ -76,6 +88,6 @@
           </a-form>
         </div>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>

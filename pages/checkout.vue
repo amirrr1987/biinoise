@@ -1,6 +1,6 @@
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <div class="grid grid-cols-12 gap-8">
         <div class="col-span-8">
           <div class="mb-8 font-bold text-xl">Billing Details</div>
@@ -77,14 +77,10 @@
               <div class="">Shipping</div>
               <div class="">Free shipping</div>
             </div>
-
-
           </a-card>
-          <a-button type="primary" block>
-            Place Order
-          </a-button>
+          <a-button type="primary" block> Place Order </a-button>
         </div>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>

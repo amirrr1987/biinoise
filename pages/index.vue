@@ -18,7 +18,7 @@
   <HomeBannerItem2 />
 
   <!-- <section class="py-12">
-    <Container>
+    <TheContainer>
       <a-tabs >
         <a-tab-pane key="1" tab="Tab 1">
           <div class="grid grid-cols-5 gap-8">
@@ -98,16 +98,14 @@
       </a-tabs>
       <h3>Featured Products</h3>
       <a-divider class="mt-4"></a-divider>
-    </Container>
+    </TheContainer>
   </section> -->
 
   <!-- <section class="py-12">
-    <Container>
+    <TheContainer>
       sdf
-    </Container>
+    </TheContainer>
   </section> -->
-
-
 </template>
 <script lang="ts" setup>
 const handleMessage = (): any => {
