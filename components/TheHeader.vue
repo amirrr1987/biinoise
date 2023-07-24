@@ -3,12 +3,14 @@
     <nav class="bg-blue-500 text-white py-2">
       <Container>
         <ul class="flex gap-x-2">
+          <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/checkout">checkout</NuxtLink>
           <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/about">about</NuxtLink>
           <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/compare">compare</NuxtLink>
           <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/contact">contact</NuxtLink>
           <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/">home</NuxtLink>
           <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/login">login</NuxtLink>
           <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/register">register</NuxtLink>
+          <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/forget">forget</NuxtLink>
           <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/thank-you">thank-you</NuxtLink>
           <NuxtLink class="text-white no-underline px-4 py-1 capitalize focus:text-blue-900" to="/wishlist">wishlist</NuxtLink>
         </ul>
