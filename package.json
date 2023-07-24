@@ -11,10 +11,12 @@
   "devDependencies": {
     "@ant-design-vue/nuxt": "^1.0.1",
     "@nuxt/devtools": "latest",
-    "@nuxtjs/i18n": "8.0.0-beta.13",
-    "@types/node": "^18.16.19",
-    "@unocss/nuxt": "^0.53.5",
-    "nuxt": "^3.6.3",
+    "@nuxtjs/i18n": "7.3.1",
+    "@types/node": "^20.4.4",
+    "@unocss/nuxt": "^0.53.6",
+    "@unocss/transformer-compile-class": "^0.53.6",
+    "@unocss/transformer-directives": "^0.53.6",
+    "nuxt": "^3.6.5",
     "nuxt-icon": "^0.4.2",
     "nuxt-lodash": "^2.5.0"
   },
