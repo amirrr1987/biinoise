@@ -9,3 +9,6 @@ body{
     line-height: 1.68;
     color: #414141;
 }
+.ant-collapse-header .ant-collapse-header-text {
+    order: -1;
+}
