@@ -1,6 +1,6 @@
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <div class="grid grid-cols-12">
         <div class="col-span-7">
           <a-collapse>
@@ -72,7 +72,7 @@
           </a-collapse>
         </div>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>
 <style></style>

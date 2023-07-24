@@ -1,6 +1,6 @@
 <template>
-    <section class="py-12">
-    <Container>
+  <section class="py-12">
+    <TheContainer>
       <div class="grid lg:grid-cols-2 gap-8">
         <div class="overflow-hidden rounded-xl">
           <img
@@ -19,6 +19,6 @@
           />
         </div>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>

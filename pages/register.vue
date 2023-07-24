@@ -1,6 +1,6 @@
 <template>
   <section class="h-screen flex items-center">
-    <Container>
+    <TheContainer>
       <NuxtLink to="/">
         <img
           class="mx-auto block"
@@ -24,7 +24,7 @@
           <NuxtLink to="/login">login</NuxtLink>
         </div>
       </a-form>
-    </Container>
+    </TheContainer>
   </section>
 </template>
 <script setup>

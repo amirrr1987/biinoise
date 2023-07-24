@@ -1,23 +1,22 @@
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <div class="flex justify-between gap-8 flex-warp">
-        
-          <div
-            class="flex gap-4 select-none"
-            v-for="(item, index) in myData"
-            :key="index"
-          >
-            <img class="object-contain" :src="getImage(index)" alt="" />
-            <div class="">
-              <h4 class="">{{ item.title }}</h4>
-              <div class="text-gray text-xs font-light">
-                {{ item.caption }}
-              </div>
+        <div
+          class="flex gap-4 select-none"
+          v-for="(item, index) in myData"
+          :key="index"
+        >
+          <img class="object-contain" :src="getImage(index)" alt="" />
+          <div class="">
+            <h4 class="">{{ item.title }}</h4>
+            <div class="text-gray text-xs font-light">
+              {{ item.caption }}
             </div>
           </div>
+        </div>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>
 <script setup lang="ts">

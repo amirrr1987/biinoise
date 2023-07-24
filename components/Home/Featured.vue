@@ -1,13 +1,13 @@
 <template>
-      <section class="py-12">
-    <Container>
+  <section class="py-12">
+    <TheContainer>
       <h3>Featured Products</h3>
       <a-divider class="mt-4"></a-divider>
       <div class="grid grid-cols-5 gap-8">
         <a-card hoverable v-for="(category, index) in 5" :key="index">
           <template #cover>
             <img
-            class="w-96"
+              class="w-96"
               src="@/assets/images/product-image/3.jpg"
               title="sdf"
               alt="example"
@@ -25,6 +25,6 @@
           </a-card-meta>
         </a-card>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>

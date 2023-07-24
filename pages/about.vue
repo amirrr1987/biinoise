@@ -1,6 +1,6 @@
 <template>
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <div class="grid grid-cols-2 gap-8">
         <div class="">
           <img
@@ -31,11 +31,11 @@
           </p>
         </div>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 
   <section class="py-12">
-    <Container>
+    <TheContainer>
       <div class="grid grid-cols-3 gap-4">
         <div class="">
           <h4 class="text-2xl mb-2">Our Company</h4>
@@ -67,6 +67,6 @@
           </p>
         </div>
       </div>
-    </Container>
+    </TheContainer>
   </section>
 </template>
