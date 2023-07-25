@@ -1,17 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   modules: [
-    '@ant-design-vue/nuxt',
-    '@unocss/nuxt',
-    "nuxt-lodash",
+    'nuxt-lodash',
     'nuxt-icon',
+    '@unocss/nuxt',
+    'nuxt-lodash',
+    '@ant-design-vue/nuxt',
     'vue3-carousel-nuxt',
-    '@nuxtjs/i18n',
   ],
-  css: ['assets/styles/main.css'],
   antd: {
     // Options
   },
+  css: ['assets/styles/main.css'],
   devtools: { enabled: true },
   build: {
     loaders: {

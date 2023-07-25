@@ -4,7 +4,7 @@
       <div class="grid grid-cols-12">
         <div class="col-span-7">
           <a-collapse>
-            <a-collapse-panel key="1" header="1. Edit Your Account Information">
+           <a-collapse-panel key="1" header="1. Edit Your Account Information">
               <a-form layout="vertical">
                 <div>
                   <div class="">MY ACCOUNT INFORMATION</div>
@@ -75,4 +75,9 @@
     </TheContainer>
   </section>
 </template>
-<style></style>
+<style lang="less">
+
+</style>
+<script setup lang="ts">
+
+</script>
