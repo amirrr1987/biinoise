@@ -4,7 +4,7 @@
       <div class="">Welcome you to Rozer Store!</div>
       <div class=""></div>
     </TheContainer>
-    <a-divider></a-divider>
+    <Divider></Divider>
 
     <TheContainer class="flex gap-x-24">
       <NuxtLink to="/">
@@ -14,15 +14,15 @@
         <!-- <a-select class="border-0">
           <a-select-option key="" value=""></a-select-option>
         </a-select> -->
-        <a-input
+        <Input
           class="border-0"
           placeholder="Enter your search key ... "
-        ></a-input>
-        <a-button type="primary" class="rounded-none">
+        ></Input>
+        <Button type="primary" class="rounded-none">
           <template #icon>
             <Icon name="ant-design:search-outlined" />
           </template>
-        </a-button>
+        </Button>
       </div>
       <div class=""></div>
     </TheContainer>
@@ -100,20 +100,22 @@
 
     <div class="bg-gray-100" v-if="route.name !== 'index'">
       <TheContainer>
-        <a-breadcrumb class="py-4">
-          <a-breadcrumb-item>
+        <Breadcrumb class="py-4">
+          <BreadcrumbItem>
             <NuxtLink to="/"> Home </NuxtLink>
-          </a-breadcrumb-item>
-          <a-breadcrumb-item >
+          </BreadcrumbItem>
+          <BreadcrumbItem>
             <NuxtLink :to="route.path" class="capitalize">
               {{ route.name }}
             </NuxtLink>
-          </a-breadcrumb-item>
-        </a-breadcrumb>
+          </BreadcrumbItem>
+        </Breadcrumb>
       </TheContainer>
     </div>
   </header>
 </template>
 <script setup lang="ts">
+// import {Breadcrumb} from "ant-design-vue"
 const route: any = useRoute();
 </script>
+ant-design-vue
