@@ -3,13 +3,13 @@
     <TheContainer>
       <NuxtLink to="/">
         <img
-          class="mx-auto block"
-          src="@/assets/images/logo/logo.png"
+          class="mx-auto block w-40"
+          src="https://biinoise.com/wp-content/uploads/2020/12/logo-site-1-e1684931997977.png"
           alt="rozer"
           title="rozer"
         />
       </NuxtLink>
-      <el-form layout="vertical" class="w-2/5 mx-auto p-8">
+      <el-form labelPosition="top" class="w-140 mx-auto">
         <el-form-item label="Username">
           <el-input></el-input>
         </el-form-item>
@@ -20,11 +20,11 @@
           <el-form-item label="Remember me">
             <el-checkbox></el-checkbox>
           </el-form-item>
-          <NuxtLink to="/forget">Forgot Password?</NuxtLink>
+          <NuxtLink to="/forget" class=":uno: text-blue no-underline">Forgot Password?</NuxtLink>
         </div>
         <el-button type="primary">Login</el-button>
-        <div class="mt-4 text-center">
-          <NuxtLink to="/register">Create account</NuxtLink>
+        <div class=":uno: mt-4 text-center">
+          <NuxtLink to="/register" class=":uno: text-blue no-underline">Create account</NuxtLink>
         </div>
       </el-form>
     </TheContainer>

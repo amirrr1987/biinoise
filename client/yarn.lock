@@ -1676,7 +1676,14 @@
   dependencies:
     "@unocss/core" "0.53.6"
 
-"@unocss/transformer-directives@0.53.6":
+"@unocss/transformer-compile-class@^0.53.6":
+  version "0.53.6"
+  resolved "https://registry.yarnpkg.com/@unocss/transformer-compile-class/-/transformer-compile-class-0.53.6.tgz#4cd48ab04adda9d5167f3d33db6b409237c99a2c"
+  integrity sha512-jR9ZGjU7cNturWifdCz9R0PABHs55NTOaWATmgeZVN/FWpvVFN6x2dQaNSEqRptQwpxDGQNw45JLL8qFKfXUqQ==
+  dependencies:
+    "@unocss/core" "0.53.6"
+
+"@unocss/transformer-directives@0.53.6", "@unocss/transformer-directives@^0.53.6":
   version "0.53.6"
   resolved "https://registry.npmjs.org/@unocss/transformer-directives/-/transformer-directives-0.53.6.tgz"
   integrity sha512-tgG7ZOyLFRWB980BthwcDzKqe44JCyDMWGRzPsmPmNKVHZ86tDHibJOJYDgFu25PlPtJTzQpc3OA8Lw2xCCGKA==

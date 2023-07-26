@@ -83,7 +83,11 @@
             </el-form-item>
 
             <el-form-item label="Message">
-              <el-textarea></el-textarea>
+              <el-textarea
+                :rows="2"
+                type="textarea"
+                placeholder="Notes about your order, e.g. special notes for delivery. "
+              />
             </el-form-item>
           </el-form>
         </div>

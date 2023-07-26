@@ -6,6 +6,9 @@ import transformerCompileClass from '@unocss/transformer-compile-class'
 export default defineConfig({
     transformers: [
         transformerDirectives(),
-        transformerCompileClass(),
+        transformerCompileClass({
+            classPrefix: 'noise__'
+        }),
     ],
 })
+

@@ -1,6 +1,6 @@
 <template>
   <header>
-    <TheContainer class="flex justify-between">
+    <TheContainer class=":uno: flex justify-between">
       <div class="">Welcome you to Rozer Store!</div>
       <div class=""></div>
     </TheContainer>
@@ -8,14 +8,14 @@
 
     <TheContainer class="flex gap-x-24">
       <NuxtLink to="/">
-        <img src="@/assets/images/logo/logo.png" title="rozer" alt="rozer" />
+        <img src="https://biinoise.com/wp-content/uploads/2020/12/logo-site-1-e1684931997977.png" title="rozer" alt="rozer" />
       </NuxtLink>
       <div class="flex-1 flex border border-solid border-gray-300 rounded">
         <!-- <el-select class="border-0">
           <el-select-option key="" value=""></el-select-option>
         </el-select> -->
         <el-input
-          class="border-0"
+          class=":uno: border-0"
           placeholder="Enter your search key ... "
         ></el-input>
         <el-button type="primary" class="rounded-none">
@@ -27,9 +27,9 @@
       <div class=""></div>
     </TheContainer>
 
-    <nav class="bg-blue-500 text-white py-2">
+    <nav class=":uno: bg-blue-500 text-white py-2">
       <TheContainer>
-        <ul class="flex gap-x-1">
+        <ul class=":uno: flex gap-x-1">
           <NuxtLink
             v-for="(nav, index) in navigation"
             :key="index"
@@ -42,7 +42,7 @@
       </TheContainer>
     </nav>
 
-    <div class="bg-gray-100 py-4" v-if="route.name !== 'index'">
+    <div class=":uno: bg-gray-100 py-4" v-if="route.name !== 'index'">
       <TheContainer>
         <el-breadcrumb separator="/">
           <el-breadcrumb-item :to="{ path: '/' }">Home</el-breadcrumb-item>

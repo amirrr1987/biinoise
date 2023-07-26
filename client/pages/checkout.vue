@@ -56,8 +56,10 @@
 
             <el-form-item label="Order notes">
               <el-textarea
+                :rows="2"
+                type="textarea"
                 placeholder="Notes about your order, e.g. special notes for delivery. "
-              ></el-textarea>
+              />
             </el-form-item>
             <el-form-item label="Ship to a different address?">
               <el-checkbox></el-checkbox>
