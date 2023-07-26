@@ -2,7 +2,7 @@
   <section class="py-12">
     <TheContainer>
       <h3 class="">Recently Added</h3>
-      <a-divider class="mt-4"></a-divider>
+      <el-divider class="mt-4"></el-divider>
       <Carousel v-bind="settings" :breakpoints="breakpoints">
         <Slide v-for="(slide, index) in 29" :key="slide">
           <div class="carousel__item">

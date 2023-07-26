@@ -27,7 +27,7 @@ const brands = reactive([
   <section class="py-12">
     <TheContainer>
       <h3 class="">Recently Added</h3>
-      <a-divider class="mt-4"></a-divider>
+      <el-divider class="mt-4"></el-divider>
       <Carousel
         v-bind="settings"
         :breakpoints="breakpoints"

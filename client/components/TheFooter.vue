@@ -4,18 +4,22 @@
       <div class="grid grid-cols-12 gap-8 py-12">
         <div class="col-span-12 md:col-span-4 lg:col-span-4">
           <h3 class="font-medium text-lg mb-2">About US</h3>
-          <a-divider class="my-2 border-blue"></a-divider>
+          <el-divider class="my-2 border-blue"></el-divider>
           <p class="mb-4">
             We are a team of designers and developers that create high quality
             HTML template
           </p>
           <NuxtLink to="/">
-            <img src="@/assets/images/logo/logo-2.png" title="rozer" alt="rozer" />
+            <img
+              src="@/assets/images/logo/logo-2.png"
+              title="rozer"
+              alt="rozer"
+            />
           </NuxtLink>
         </div>
         <div class="col-span-12 md:col-span-4 lg:col-span-2">
           <h3 class="font-medium text-lg mb-2">Information</h3>
-          <a-divider class="my-2 border-blue"></a-divider>
+          <el-divider class="my-2 border-blue"></el-divider>
           <ul class="list-none">
             <li>
               <NuxtLink class="text-light no-underline" to="/"
@@ -50,7 +54,7 @@
 
         <div class="col-span-12 md:col-span-4 lg:col-span-2">
           <h3 class="font-medium text-lg mb-2">Custom Links</h3>
-          <a-divider class="my-2 border-blue"></a-divider>
+          <el-divider class="my-2 border-blue"></el-divider>
           <ul class="list-none">
             <li>
               <NuxtLink class="text-light no-underline" to="/"
@@ -87,51 +91,51 @@
           class="col-span-12 md:col-span-8 md:col-start-3 lg:col-start-auto lg:col-span-4"
         >
           <h3 class="font-medium text-lg mb-2">Newsletter</h3>
-          <a-divider class="my-2 border-blue"></a-divider>
+          <el-divider class="my-2 border-blue"></el-divider>
           <p class="mb-4">
             You may unsubscribe at any moment. For that purpose, please find our
             contact info in the legal notice.
           </p>
-          <a-form-item>
-            <div class="bg-white flex rounded overflow-hidden">
-              <a-input size="large" class="border-0 focus:outline-none">
-              </a-input>
-              <a-button type="text" class="bg-dark text-light rounded-0 h-10"
-                >signup</a-button
+          <el-form-item>
+            <div class="bg-white flex items-center rounded !overflow-hidden">
+              <el-input size="large" class="border-0 focus:outline-none">
+              </el-input>
+              <el-button type="info" class="bg-dark text-light !rounded-0 !h-10"
+                >signup</el-button
               >
             </div>
-          </a-form-item>
+          </el-form-item>
           <div class="flex gap-x-4">
-            <a-button type="primary" shape="circle" class="text-white">
+            <el-button type="primary" circle class="text-white">
               <template #icon>
                 <Icon name="tabler:brand-github" size="22" />
               </template>
-            </a-button>
-            <a-button type="primary" shape="circle" class="text-white">
+            </el-button>
+            <el-button type="primary" circle>
               <template #icon>
                 <Icon name="tabler:brand-facebook" size="22" />
               </template>
-            </a-button>
-            <a-button type="primary" shape="circle" class="text-white">
+            </el-button>
+            <el-button type="primary" circle class="text-white">
               <template #icon>
                 <Icon name="tabler:brand-google" size="22" />
               </template>
-            </a-button>
-            <a-button type="primary" shape="circle" class="text-white">
+            </el-button>
+            <el-button type="primary" circle class="text-white">
               <template #icon>
                 <Icon name="tabler:brand-instagram" size="22" />
               </template>
-            </a-button>
-            <a-button type="primary" shape="circle" class="text-white">
+            </el-button>
+            <el-button type="primary" circle class="text-white">
               <template #icon>
                 <Icon name="tabler:brand-twitter" size="22" />
               </template>
-            </a-button>
+            </el-button>
           </div>
         </div>
       </div>
     </TheContainer>
-    <a-divider class="my-0"></a-divider>
+    <el-divider class="my-0"></el-divider>
     <TheContainer>
       <div class="flex justify-between py-4">
         <span
@@ -141,16 +145,11 @@
           >.</span
         >
         <div>
-          <img src="@/assets/images/icons/payment.png" title="" alt="" />
+          <img
+            src="@/assets/images/icons/payment.png"
+          />
         </div>
       </div>
     </TheContainer>
   </footer>
 </template>
-<style lang="less">
-.c{
-  .d{
-    background-color: red;
-  }
-}
-</style>

@@ -9,16 +9,16 @@
           title="rozer"
         />
       </NuxtLink>
-      <a-form layout="vertical" class="w-2/5 mx-auto shadow p-8">
-        <a-form-item label="Email">
-          <a-input></a-input>
-        </a-form-item>
+      <el-form layout="vertical" class="w-2/5 mx-auto p-8">
+        <el-form-item label="Email">
+          <el-input></el-input>
+        </el-form-item>
 
-        <a-button type="primary">submit</a-button>
+        <el-button type="primary">submit</el-button>
         <div class="mt-4 text-center">
           <NuxtLink to="/login">login</NuxtLink>
         </div>
-      </a-form>
+      </el-form>
     </TheContainer>
   </section>
 </template>

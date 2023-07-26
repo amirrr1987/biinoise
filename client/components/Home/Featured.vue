@@ -2,28 +2,27 @@
   <section class="py-12">
     <TheContainer>
       <h3>Featured Products</h3>
-      <a-divider class="mt-4"></a-divider>
+      <el-divider class="mt-4"></el-divider>
       <div class="grid grid-cols-5 gap-8">
-        <a-card hoverable v-for="(category, index) in 5" :key="index">
-          <template #cover>
-            <img
-              class="w-96"
-              src="@/assets/images/product-image/3.jpg"
-              title="sdf"
-              alt="example"
-            />
-          </template>
-          <template #actions>
-            <setting-outlined key="setting" />
-            <edit-outlined key="edit" />
-            <ellipsis-outlined key="ellipsis" />
-          </template>
-          <a-card-meta title="Card title" description="This is the description">
-            <template #avatar>
-              <a-avatar src="" />
-            </template>
-          </a-card-meta>
-        </a-card>
+        <el-card
+          v-for="(category, index) in 5"
+          :key="index"
+          :body-style="{ padding: '0px' }"
+        >
+          <img
+            title="sd"
+            alt="example"
+            class="w-40"
+            :src="`../assets/images/product-image/1${index + 1}.jpg`"
+          />
+          <div style="padding: 14px">
+            <span>Yummy hamburger</span>
+            <div class="bottom">
+              <time class="time">{{ 234234 }}</time>
+              <el-button text class="button">Operating</el-button>
+            </div>
+          </div>
+        </el-card>
       </div>
     </TheContainer>
   </section>

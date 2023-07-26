@@ -2,17 +2,17 @@
   <section class="py-12">
     <TheContainer>
       <div class="grid grid-cols-12 gap-8">
-        <div class="col-span-3">
+           <div class="col-span-3">
           <legend>search</legend>
-          <a-form-item>
-            <a-input type="search"></a-input>
-          </a-form-item>
+          <el-form-item>
+            <el-input type="search"></el-input>
+          </el-form-item>
 
           <div class="">
             <div>Categories</div>
             <ul class="list-none">
               <li v-for="(categoy, index) in 4" :key="index">
-                <NuxtLink class=" no-underline text-gray" to="/category/category-3"
+                <NuxtLink class="text-gray" to="/category/category-3"
                   >Dresses</NuxtLink
                 >
               </li>
@@ -21,10 +21,10 @@
 
           <div class="">
             <div class="">Recent Post</div>
-            <a-list item-layout="horizontal" :data-source="data">
+            <el-list item-layout="horizontal" :datel-source="data">
               <template #renderItem="{ item, index }">
-                <a-list-item class="!px-0">
-                  <a-list-item-meta
+                <el-list-item class="!px-0">
+                  <el-list-item-meta
                     description="Ant Design, a design language for background applications, is refined by Ant UED Team"
                   >
                     <template #title>
@@ -40,22 +40,18 @@
                         srcset=""
                       />
                     </template>
-                  </a-list-item-meta>
-                </a-list-item>
+                  </el-list-item-meta>
+                </el-list-item>
               </template>
-            </a-list>
+            </el-list>
           </div>
 
           <div class="">
-            <div>Categories</div>
-            <div class="flex gap-4 flex-wrap">
-              <a-tag
-                v-for="(tag, index) in 7"
-                :key="index"
-                class="px-4 py-2 rounded-3xl bg-white m-0 cursor-pointer select-none cursor-default"
-              >
+            <div class="mb-2">Categories</div>
+            <div class="flex gap-3 flex-wrap">
+              <el-tag v-for="(tag, index) in 7" :key="index" class="cursor-pointer">
                 Electronics
-              </a-tag>
+              </el-tag>
             </div>
           </div>
         </div>

@@ -4,9 +4,9 @@
       <div class="grid grid-cols-12 gap-8">
         <div class="col-span-3">
           <legend>search</legend>
-          <a-form-item>
-            <a-input type="search"></a-input>
-          </a-form-item>
+          <el-form-item>
+            <el-input type="search"></el-input>
+          </el-form-item>
 
           <div class="">
             <div>Categories</div>
@@ -21,10 +21,10 @@
 
           <div class="">
             <div class="">Recent Post</div>
-            <a-list item-layout="horizontal" :data-source="data">
+            <el-list item-layout="horizontal" :datel-source="data">
               <template #renderItem="{ item, index }">
-                <a-list-item class="!px-0">
-                  <a-list-item-meta
+                <el-list-item class="!px-0">
+                  <el-list-item-meta
                     description="Ant Design, a design language for background applications, is refined by Ant UED Team"
                   >
                     <template #title>
@@ -40,57 +40,47 @@
                         srcset=""
                       />
                     </template>
-                  </a-list-item-meta>
-                </a-list-item>
+                  </el-list-item-meta>
+                </el-list-item>
               </template>
-            </a-list>
+            </el-list>
           </div>
 
           <div class="">
-            <div>Categories</div>
-            <div class="flex gap-4 flex-wrap">
-              <a-tag
-                v-for="(tag, index) in 7"
-                :key="index"
-                class="px-4 py-2 rounded-3xl bg-white m-0 cursor-pointer select-none cursor-default"
-              >
+            <div class="mb-2">Categories</div>
+            <div class="flex gap-3 flex-wrap">
+              <el-tag v-for="(tag, index) in 7" :key="index" class="cursor-pointer">
                 Electronics
-              </a-tag>
+              </el-tag>
             </div>
           </div>
         </div>
         <div class="col-span-9">
-          <div class="grid grid-cols-2 gap-8">
-            <a-card v-for="(blog, index) in 4" :key="index" class="">
-              <template #cover>
-                <img
-                  :src="`../assets/images/blog-image/blog-${index + 1}.jpg`"
-                  title="sfd"
-                  alt="sdf"
-                />
-              </template>
-              <a-card-meta>
-                <template #title>
-                  <NuxtLink to="/blogs/blog-1"
-                    >This is Third Post For XipBlog</NuxtLink
-                  >
-                  <div class="text-sm text-gray">Admin 24 April, 2020</div>
-                </template>
-                <template #description>
-                  <a-divider class="my-2"></a-divider>
+          <div class="grid grid-cols-3 gap-8">
+            <el-card v-for="(blog, index) in data" :key="index">
+              <img
+                class="aspect-[3/2] w-full mb-2"
+                :src="`../assets/images/blog-image/blog-${index + 1}.jpg`"
+                title="sfd"
+                alt="sdf"
+              />
 
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum quisquam est earum maiores quae, eligendi rerum
-                    expedita molestias, tempora ad reiciendis eos illum harum et
-                    laudantium magni temporibus quasi doloremque!
-                  </p>
-                  <a-button type="link" to="/">More</a-button>
-                </template>
-              </a-card-meta>
-            </a-card>
+              <div class="text-lg font-bold mb-2">
+                This is Third Post For XipBlog
+              </div>
+              <div class="text-sm text-gray">{{ blog.role }} {{ useDateFormat(blog.timestamp) }}</div>
+
+              <el-divider class="!my-2"></el-divider>
+
+              <p class="mb-2 text-gray-500">
+                {{ useTruncate(blog.caption, { length: 140 }) }}
+              </p>
+              <NuxtLink :to="`/blogs/blog-${blog._id}`"
+                ><el-button type="info" to="/">More</el-button></NuxtLink
+              >
+            </el-card>
           </div>
-          <a-pagination
+          <el-pagination
             class="my-12 text-center"
             v-model:current="current"
             :total="50"
@@ -103,18 +93,49 @@
 </template>
 <script setup lang="ts">
 // import { ref, reactive } from "nuxt";
+
+const text = ref();
+const a = useTruncate(text.value, { length: 140 });
 const data = reactive<any>([
   {
+    _id: "234",
     title: "Ant Design Title 1",
+    timestamp: 0,
+    role: "editor",
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                quisquam est earum maiores quae, eligendi rerum expedita
+                molestias, tempora ad reiciendis eos illum harum et laudantium
+                magni temporibus quasi doloremque!`,
   },
   {
+    _id: "89435",
     title: "Ant Design Title 2",
+    timestamp: 234234234234,
+    role: "editor",
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                quisquam est earum maiores quae, eligendi rerum expedita
+                molestias, tempora ad reiciendis eos illum harum et laudantium
+                magni temporibus quasi doloremque!`,
   },
   {
+    _id: "45345345",
     title: "Ant Design Title 3",
+    timestamp: 234234234234,
+    role: "editor",
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                quisquam est earum maiores quae, eligendi rerum expedita
+                molestias, tempora ad reiciendis eos illum harum et laudantium
+                magni temporibus quasi doloremque!`,
   },
   {
+    _id: "56734",
     title: "Ant Design Title 4",
+    timestamp: 234234234234,
+    role: "editor",
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                quisquam est earum maiores quae, eligendi rerum expedita
+                molestias, tempora ad reiciendis eos illum harum et laudantium
+                magni temporibus quasi doloremque!`,
   },
 ]);
 const current = ref<number>(2);

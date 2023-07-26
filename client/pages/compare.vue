@@ -75,7 +75,7 @@
           v-for="(item, index) in myData"
           :key="index"
         >
-          <a-button type="primary">Add to cart</a-button>
+          <el-button type="primary">Add to cart</el-button>
         </div>
 
         <div class="p-4 bg-white font-bold text-xl">Delete</div>
@@ -84,11 +84,11 @@
           v-for="(item, index) in myData"
           :key="index"
         >
-          <a-button type="text">
+          <el-button type="text">
             <template #icon>
               <Icon name="table:delete" />
             </template>
-          </a-button>
+          </el-button>
         </div>
 
         <div class="p-4 bg-white font-bold text-xl">Rating</div>
@@ -97,7 +97,7 @@
           v-for="(item, index) in myData"
           :key="index"
         >
-          <a-rate v-model:value="item.rate"></a-rate>
+          <el-rate v-model:value="item.rate"></el-rate>
         </div>
       </div>
     </TheContainer>

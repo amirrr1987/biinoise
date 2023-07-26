@@ -67,25 +67,25 @@
         </div>
         <div class="col-span-8 bg-gray-200 p-4 rounded">
           Get In Touch
-          <a-form layout="vertical">
+          <el-form layout="vertical">
             <div class="grid grid-cols-2 gap-8">
-              <a-form-item label="Name">
-                <a-input></a-input>
-              </a-form-item>
+              <el-form-item label="Name">
+                <el-input></el-input>
+              </el-form-item>
 
-              <a-form-item label="Email">
-                <a-input></a-input>
-              </a-form-item>
+              <el-form-item label="Email">
+                <el-input></el-input>
+              </el-form-item>
             </div>
 
-            <a-form-item label="Subject">
-              <a-input></a-input>
-            </a-form-item>
+            <el-form-item label="Subject">
+              <el-input></el-input>
+            </el-form-item>
 
-            <a-form-item label="Message">
-              <a-textarea></a-textarea>
-            </a-form-item>
-          </a-form>
+            <el-form-item label="Message">
+              <el-textarea></el-textarea>
+            </el-form-item>
+          </el-form>
         </div>
       </div>
     </TheContainer>

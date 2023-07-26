@@ -4,70 +4,70 @@
       <div class="grid grid-cols-12 gap-8">
         <div class="col-span-8">
           <div class="mb-8 font-bold text-xl">Billing Details</div>
-          <a-form layout="vertical">
+          <el-form layout="vertical">
             <div class="grid grid-cols-2 gap-x-4">
-              <a-form-item label="First Name">
-                <a-input></a-input>
-              </a-form-item>
-              <a-form-item label="Last Name">
-                <a-input></a-input>
-              </a-form-item>
+              <el-form-item label="First Name">
+                <el-input></el-input>
+              </el-form-item>
+              <el-form-item label="Last Name">
+                <el-input></el-input>
+              </el-form-item>
             </div>
 
-            <a-form-item label="Company Name">
-              <a-input></a-input>
-            </a-form-item>
+            <el-form-item label="Company Name">
+              <el-input></el-input>
+            </el-form-item>
 
-            <a-form-item label="Country">
-              <!-- <a-select>
+            <el-form-item label="Country">
+              <!-- <el-select>
                
-              </a-select> -->
-            </a-form-item>
+              </el-select> -->
+            </el-form-item>
 
-            <a-form-item label="Street Address">
-              <a-input></a-input>
-            </a-form-item>
+            <el-form-item label="Street Address">
+              <el-input></el-input>
+            </el-form-item>
 
-            <a-form-item label="Town / City">
-              <a-input></a-input>
-            </a-form-item>
+            <el-form-item label="Town / City">
+              <el-input></el-input>
+            </el-form-item>
             <div class="grid grid-cols-2 gap-x-4">
-              <a-form-item label="State / County">
-                <a-input></a-input>
-              </a-form-item>
-              <a-form-item label="Postcode / ZIP">
-                <a-input></a-input>
-              </a-form-item>
+              <el-form-item label="State / County">
+                <el-input></el-input>
+              </el-form-item>
+              <el-form-item label="Postcode / ZIP">
+                <el-input></el-input>
+              </el-form-item>
 
-              <a-form-item label="Phone">
-                <a-input></a-input>
-              </a-form-item>
+              <el-form-item label="Phone">
+                <el-input></el-input>
+              </el-form-item>
 
-              <a-form-item label="Email Address">
-                <a-input></a-input>
-              </a-form-item>
+              <el-form-item label="Email Address">
+                <el-input></el-input>
+              </el-form-item>
             </div>
 
-            <a-form-item label="Create an account?">
-              <a-checkbox></a-checkbox>
-            </a-form-item>
+            <el-form-item label="Create an account?">
+              <el-checkbox></el-checkbox>
+            </el-form-item>
 
             <div>Additional information</div>
 
-            <a-form-item label="Order notes">
-              <a-textarea
+            <el-form-item label="Order notes">
+              <el-textarea
                 placeholder="Notes about your order, e.g. special notes for delivery. "
-              ></a-textarea>
-            </a-form-item>
-            <a-form-item label="Ship to a different address?">
-              <a-checkbox></a-checkbox>
-            </a-form-item>
-          </a-form>
+              ></el-textarea>
+            </el-form-item>
+            <el-form-item label="Ship to a different address?">
+              <el-checkbox></el-checkbox>
+            </el-form-item>
+          </el-form>
         </div>
         <div class="col-span-4">
           <div class="mb-8 font-bold text-xl">Your order</div>
-          <a-card class="bg-gray-100 mb-8">
-            <a-table></a-table>
+          <el-card class="bg-gray-100 mb-8">
+            <el-table></el-table>
             <div class="">
               <div class="">Shipping</div>
               <div class="">Free shipping</div>
@@ -77,8 +77,8 @@
               <div class="">Shipping</div>
               <div class="">Free shipping</div>
             </div>
-          </a-card>
-          <a-button type="primary" block> Place Order </a-button>
+          </el-card>
+          <el-button type="primary" block> Place Order </el-button>
         </div>
       </div>
     </TheContainer>

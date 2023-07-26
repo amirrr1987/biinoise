@@ -4,25 +4,25 @@
       <div class="">Welcome you to Rozer Store!</div>
       <div class=""></div>
     </TheContainer>
-    <Divider></Divider>
+    <el-divider></el-divider>
 
     <TheContainer class="flex gap-x-24">
       <NuxtLink to="/">
         <img src="@/assets/images/logo/logo.png" title="rozer" alt="rozer" />
       </NuxtLink>
       <div class="flex-1 flex border border-solid border-gray-300 rounded">
-        <!-- <a-select class="border-0">
-          <a-select-option key="" value=""></a-select-option>
-        </a-select> -->
-        <Input
+        <!-- <el-select class="border-0">
+          <el-select-option key="" value=""></el-select-option>
+        </el-select> -->
+        <el-input
           class="border-0"
           placeholder="Enter your search key ... "
-        ></Input>
-        <Button type="primary" class="rounded-none">
+        ></el-input>
+        <el-button type="primary" class="rounded-none">
           <template #icon>
             <Icon name="ant-design:search-outlined" />
           </template>
-        </Button>
+        </el-button>
       </div>
       <div class=""></div>
     </TheContainer>
@@ -31,91 +31,82 @@
       <TheContainer>
         <ul class="flex gap-x-1">
           <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/"
-            >home</NuxtLink
-          >
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/about-us"
-            >about US</NuxtLink
-          >
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/account"
-            >account</NuxtLink
-          >
-          
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/checkout"
-            >checkout</NuxtLink
-          >
-          
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/compare"
-            >compare</NuxtLink
-          >
-          
-
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/login"
-            >login</NuxtLink
-          >
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/register"
-            >register</NuxtLink
-          >
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/forget"
-            >forget</NuxtLink
-          >
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/thank-you"
-            >thank-you</NuxtLink
-          >
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/wishlist"
-            >wishlist</NuxtLink
-          >
-          <NuxtLink
-            class="text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/blogs"
-            >blogs</NuxtLink
-          >
-          <NuxtLink
+            v-for="(nav, index) in navigation"
+            :key="index"
             class=":uno: text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
-            to="/contact-us"
-            >contact US</NuxtLink
+            :to="nav.url"
           >
+            {{ nav.name }}
+          </NuxtLink>
         </ul>
       </TheContainer>
     </nav>
 
-    <div class="bg-gray-100" v-if="route.name !== 'index'">
+    <div class="bg-gray-100 py-4" v-if="route.name !== 'index'">
       <TheContainer>
-        <Breadcrumb class="py-4">
-          <BreadcrumbItem>
-            <NuxtLink to="/"> Home </NuxtLink>
-          </BreadcrumbItem>
-          <BreadcrumbItem>
+        <el-breadcrumb separator="/">
+          <el-breadcrumb-item :to="{ path: '/' }">Home</el-breadcrumb-item>
+          <el-breadcrumb-item>
             <NuxtLink :to="route.path" class="capitalize">
               {{ route.name }}
             </NuxtLink>
-          </BreadcrumbItem>
-        </Breadcrumb>
+          </el-breadcrumb-item>
+        </el-breadcrumb>
       </TheContainer>
     </div>
   </header>
 </template>
 <script setup lang="ts">
-// import {Breadcrumb} from "ant-design-vue"
 const route: any = useRoute();
+
+const navigation = reactive([
+  {
+    name: "home",
+    url: "/",
+  },
+  {
+    name: "About US",
+    url: "/about-us",
+  },
+  {
+    name: "Account",
+    url: "/account",
+  },
+  {
+    name: "Checkout",
+    url: "/checkout",
+  },
+  {
+    name: "Compare",
+    url: "/compare",
+  },
+  {
+    name: "Login",
+    url: "/login",
+  },
+  {
+    name: "Register",
+    url: "/register",
+  },
+  {
+    name: "Forget",
+    url: "/forget",
+  },
+  {
+    name: "Thank You",
+    url: "/thank-you",
+  },
+  {
+    name: "Wishlist",
+    url: "/wishlist",
+  },
+  {
+    name: "Blogs",
+    url: "/blogs",
+  },
+  {
+    name: "Contact US",
+    url: "/contact-us",
+  },
+]);
 </script>
-ant-design-vue

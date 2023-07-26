@@ -2,25 +2,18 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    'nuxt-lodash',
-    'nuxt-icon',
+    '@vueuse/nuxt',
     '@unocss/nuxt',
     'nuxt-lodash',
-    '@ant-design-vue/nuxt',
-    'vue3-carousel-nuxt',
+    '@nuxtjs/i18n',
+    '@element-plus/nuxt',
+    'nuxt-icon',
+    'vue3-carousel-nuxt'
   ],
-  antd: {
-    // Options
-  },
   css: ['assets/styles/main.css'],
-  devtools: { enabled: true },
-  build: {
-    loaders: {
-      less: {
-        lessOptions: {
-          javascriptEnabled: true,
-        },
-      },
-    },
+  i18n: {
+    /* module options */
   },
+  elementPlus: { /** Options */ }
+
 })
