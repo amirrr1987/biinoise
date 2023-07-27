@@ -55,7 +55,7 @@
             <div>Additional information</div>
 
             <el-form-item label="Order notes">
-              <el-textarea
+              <el-input
                 :rows="2"
                 type="textarea"
                 placeholder="Notes about your order, e.g. special notes for delivery. "

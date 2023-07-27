@@ -67,7 +67,7 @@
         </div>
         <div class="col-span-8 bg-gray-200 p-4 rounded">
           Get In Touch
-          <el-form layout="vertical">
+          <el-form labelPosition="top">
             <div class="grid grid-cols-2 gap-8">
               <el-form-item label="Name">
                 <el-input></el-input>
@@ -83,8 +83,8 @@
             </el-form-item>
 
             <el-form-item label="Message">
-              <el-textarea
-                :rows="2"
+              <el-input
+                :rows="10"
                 type="textarea"
                 placeholder="Notes about your order, e.g. special notes for delivery. "
               />

@@ -3,10 +3,10 @@
     <TheContainer>
       <NuxtLink to="/">
        <img
-          class="mx-auto block w-40"
+          class="mx-auto block w-40 h-40 object-contain"
           src="https://biinoise.com/wp-content/uploads/2020/12/logo-site-1-e1684931997977.png"
-          alt="rozer"
-          title="rozer"
+          alt="Biinoise"
+          title="Biinoise"
         />
       </NuxtLink>
       <el-form labelPosition="top" class="w-140 mx-auto p-8">

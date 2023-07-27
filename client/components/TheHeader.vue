@@ -2,13 +2,23 @@
   <header>
     <TheContainer class=":uno: flex justify-between">
       <div class="">Welcome you to Rozer Store!</div>
+      <img
+        class="w-30 h-4 object-contain"
+        src="https://biinoise.com/wp-content/uploads/2022/12/You-can-hear-better-with-biinoise.png"
+        alt=""
+      />
       <div class=""></div>
     </TheContainer>
     <el-divider></el-divider>
 
     <TheContainer class="flex gap-x-24">
       <NuxtLink to="/">
-        <img src="https://biinoise.com/wp-content/uploads/2020/12/logo-site-1-e1684931997977.png" title="rozer" alt="rozer" />
+        <img
+          class="h-20"
+          src="https://biinoise.com/wp-content/uploads/2020/12/logo-site-1-e1684931997977.png"
+          title="rozer"
+          alt="rozer"
+        />
       </NuxtLink>
       <div class="flex-1 flex border border-solid border-gray-300 rounded">
         <!-- <el-select class="border-0">
@@ -60,6 +70,18 @@
 const route: any = useRoute();
 
 const navigation = reactive([
+  {
+    name: "home",
+    url: "/",
+  },
+  {
+    name: "headphones",
+    url: "/headphones",
+  },
+  {
+    name: "speakers",
+    url: "/speakers",
+  },
   {
     name: "home",
     url: "/",

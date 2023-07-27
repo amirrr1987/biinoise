@@ -105,7 +105,7 @@
               >
             </div>
           </el-form-item>
-          <div class=":uno: flex gap-x-4">
+          <div class="">
             <el-button type="primary" circle class=":uno: text-white">
               <template #icon>
                 <Icon name="tabler:brand-github" size="22" />
@@ -137,7 +137,7 @@
     </TheContainer>
     <el-divider class=":uno: my-0"></el-divider>
     <TheContainer>
-      <div class=":uno: flex justify-between py-4">
+      <div class=":uno: flex justify-between py-4 text-sm">
         <span
           >© 2021 Rozer Made With By
           <NuxtLink class=":uno: text-light no-underline" to="/amirmaghami.ir"

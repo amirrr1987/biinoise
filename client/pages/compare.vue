@@ -1,105 +1,41 @@
 <template>
   <section class="py-12">
     <TheContainer>
-      <div class="grid grid-cols-max-1fr gap-2px p-2px bg-gray-400">
-        <div class="p-4 bg-white font-bold text-xl">Category</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          {{ item.category }}
-        </div>
-
-        <div class="p-4 bg-white font-bold text-xl">Product</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          {{ item.brand }}
-        </div>
-
-            <div class="p-4 bg-white font-bold text-xl">Model</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          {{ item.model }}
-        </div>
-
-        <div class="p-4 bg-white font-bold text-xl">Image</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          <img
-            class="w-40 h-40 object-contain block m-auto"
-            :src="`../assets/images/product-image/${item.img}`"
-            alt=""
-          />
-        </div>
-
-        <div class="p-4 bg-white font-bold text-xl">Price</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          {{ item.price }}
-        </div>
-
-        <div class="p-4 bg-white font-bold text-xl">Color</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          <div class="w-12 h-6 rounded-full" :style="{ backgroundColor: item.color }"></div>
-        </div>
-        <div class="p-4 bg-white font-bold text-xl">Stock</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          <template v-if="item.stock">In Stock</template>
-          <template v-else>Out of Stock</template>
-        </div>
-
-        <div class="p-4 bg-white font-bold text-xl">Add to cart</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          <el-button type="primary">Add to cart</el-button>
-        </div>
-
-        <div class="p-4 bg-white font-bold text-xl">Delete</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          <el-button type="text">
-            <template #icon>
-              <Icon name="table:delete" />
-            </template>
-          </el-button>
-        </div>
-
-        <div class="p-4 bg-white font-bold text-xl">Rating</div>
-        <div
-          class="p-4 bg-white font-bold text-xl"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          <el-rate v-model:value="item.rate"></el-rate>
-        </div>
-      </div>
+      <el-table :data="myData" style="width: 100%" height="700">
+        <el-table-column label="Image" width="180">
+          <template #default="scope">
+            <el-image
+              class="w-full h-full object-contain block m-auto"
+              :src="`../assets/images/product-image/${scope.row.img}`"
+              alt=""
+            />
+          </template>
+        </el-table-column>
+        <el-table-column prop="category" label="Category" width="180" />
+        <el-table-column prop="brand" label="Brand" />
+        <el-table-column prop="model" label="Model" />
+        <el-table-column prop="price" label="Price" />
+        <el-table-column label="Colors">
+          <template #default="scope">
+            <div
+              v-for="item in scope.row.colors"
+              class="w-4 h-4 rounded inline-block mr-1"
+              :style="{ backgroundColor: item }"
+            />
+          </template>
+        </el-table-column>
+        <el-table-column prop="stock" label="Stock">
+          <template #default="scope">
+            <span class="text-green" v-if="scope.row.stock">in Stock</span>
+            <span class="text-red" v-else>Out of Stock</span>
+          </template>
+        </el-table-column>
+        <el-table-column prop="rate" label="Rating">
+          <template #default="scope">
+            <el-rate v-model="scope.row.rate"></el-rate>
+          </template>
+        </el-table-column>
+      </el-table>
     </TheContainer>
   </section>
 </template>
@@ -111,7 +47,7 @@ interface MyData {
   model: string;
   description: string;
   price: number;
-  color: string;
+  colors: string[];
   stock: boolean;
   rate: number;
 }
@@ -124,7 +60,7 @@ const myData = reactive<MyData[]>([
     description:
       "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
     price: 295,
-    color: "black",
+    colors: ["black", "red", "yellow"],
     stock: true,
     rate: 0,
   },
@@ -136,7 +72,7 @@ const myData = reactive<MyData[]>([
     description:
       "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
     price: 295,
-    color: "red",
+    colors: ["red", "#0ff"],
     stock: true,
     rate: 4,
   },
@@ -148,7 +84,7 @@ const myData = reactive<MyData[]>([
     description:
       "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
     price: 295,
-    color: "black",
+    colors: ["black"],
     stock: true,
     rate: 5,
   },
@@ -160,7 +96,67 @@ const myData = reactive<MyData[]>([
     description:
       "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
     price: 295,
-    color: "black",
+    colors: ["black", "yellow", "brown", "pink"],
+    stock: true,
+    rate: 1,
+  },
+  {
+    img: "7.jpg",
+    category: "camera",
+    brand: "Zeon Zen 4 Pro",
+    model: "Zeon Zen 4 Pro",
+    description:
+      "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
+    price: 295,
+    colors: ["black"],
+    stock: true,
+    rate: 1,
+  },
+  {
+    img: "7.jpg",
+    category: "camera",
+    brand: "Zeon Zen 4 Pro",
+    model: "Zeon Zen 4 Pro",
+    description:
+      "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
+    price: 295,
+    colors: ["black", "yellow", "brown", "pink"],
+    stock: true,
+    rate: 1,
+  },
+  {
+    img: "22.jpg",
+    category: "camera",
+    brand: "Zeon Zen 4 Pro",
+    model: "Zeon Zen 4 Pro",
+    description:
+      "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
+    price: 295,
+    colors: ["black"],
+    stock: true,
+    rate: 1,
+  },
+  {
+    img: "24.jpg",
+    category: "camera",
+    brand: "Zeon Zen 4 Pro",
+    model: "Zeon Zen 4 Pro",
+    description:
+      "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
+    price: 295,
+    colors: ["black", "yellow", "brown", "pink"],
+    stock: true,
+    rate: 1,
+  },
+  {
+    img: "27.jpg",
+    category: "camera",
+    brand: "Zeon Zen 4 Pro",
+    model: "Zeon Zen 4 Pro",
+    description:
+      "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
+    price: 295,
+    colors: ["black", "yellow", "brown", "pink"],
     stock: true,
     rate: 1,
   },
@@ -172,14 +168,19 @@ const myData = reactive<MyData[]>([
     description:
       "Samsome Note Book Pro 5 is the best Laptop on this budget. You can satisfy after usign this laptop. It’s performance is awesome. Designer’s love it.",
     price: 295,
-    color: "black",
+    colors: ["black"],
     stock: false,
     rate: 2,
   },
 ]);
+const selectedItems = reactive<MyData[]>([]);
+const removeItem = (itemIndex: number) => {
+  usePullAt(myData, itemIndex);
+};
+const clearSelection = () => (selectedItems.length = 0);
 </script>
 <style>
 .grid-cols-max-1fr {
-  grid-template-columns: max-content repeat(v-bind("myData.length"), 1fr);
+  grid-template-columns: max-content repeat(v-bind("myData.length"), 160px);
 }
 </style>
