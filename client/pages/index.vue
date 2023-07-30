@@ -1,11 +1,54 @@
 <template>
   <HomeCarousel />
 
+
+    <div>
+      <TheContainer>
+        <div class="grid grid-cols-12 gap-8 py-12">
+          <div class="col-span-12 md:col-span-4 lg:col-span-3">
+            <NuxtLink to="/">
+              <img
+                class="w-full w-full object-contain"
+                src="https://biinoise.com/wp-content/uploads/2020/12/logo-site-1-e1684931997977.png"
+                title="rozer"
+                alt="rozer"
+              />
+            </NuxtLink>
+          </div>
+          <div class="col-span-12 md:col-span-4 lg:col-span-9">
+            <h3 class="font-medium text-lg mb-2">About US</h3>
+            <el-divider class="my-2 border-blue"></el-divider>
+            <p class="mb-4">
+              اینجا فروشگاه حضوری و مجازی بی نویز هستش . ما در مجموعه همه
+              محصولات کمپانی جی بی ال و هارمن کاردن رو موجود داریم و از این نظر
+              با اعتماد به نفس کامل میتونیم بگیم که بزرگترین بانک کامل این دو
+              برند در کل ایران هستیم . شما میتونید قبل از خرید به فروشگاه های
+              حضوریمون در پاساژ اپال و بازار موبایل ایران بیاید و کالای مورد
+              نظرتون رو تست کنید ، با بقیه مقایسه کنید و بعد خرید کنید ، اگر هم
+              شهرستان هستید و امکان آمدن به فروشگاه رو ندارید فقط کافیه که تو
+              سایت ثبت نام و بعدش ثبت سفارش کنید .همه هدفون ها و اسپیکرهای
+              فروشگاه اصلی هستن و از این بابت ضمانت محکمی بهتون داده میشه . در
+              ضمن قیمت همه کالاهامون در کل ایران معمولاً بهترینه و با منش و هدف
+              سودکمتر = فروش بیشتر به کارمون ادامه میدیم . مجموعه ما از سال ۱۳۹۸
+              با شعار « با بی نویز میشه بهتر شنید » شروع به کار کرده . اگر دوست
+              دارید lifestyle مغازه رو دنبال کنید پیج اینستاگرام رو فالو کنید.
+            </p>
+          </div>
+        </div>
+      </TheContainer>
+    </div>
+
+  <HomeCategory />
+
   <HomeStatic />
+
+
 
   <HomeBannerItem1 />
 
-  <HomeCategory />
+
+  <HomeMostVisited />
+
 
   <HomeFeatured />
 
@@ -108,7 +151,6 @@
   </section> -->
 </template>
 <script lang="ts" setup>
-
 const handleMessage = (): any => {
   message.info("This is a normal message");
 };

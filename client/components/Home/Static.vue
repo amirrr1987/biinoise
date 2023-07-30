@@ -1,19 +1,13 @@
 <template>
   <section class="py-12">
     <TheContainer>
-      <div class="flex justify-between gap-8 flex-warp">
-        <div
-          class="flex gap-4 select-none"
-          v-for="(item, index) in myData"
-          :key="index"
-        >
-          <img class="object-contain" :src="getImage(index)" alt="" />
-          <div class="">
-            <h4 class="">{{ item.title }}</h4>
-            <div class="text-gray text-xs font-light">
-              {{ item.caption }}
-            </div>
-          </div>
+      <div class="grid grid-cols-5 bg-gray-100 py-6 px-4">
+        <div class="text-center" v-for="(item, index) in myData" :key="index">
+          <Icon size="40" class="mb-2 text-gray" :name="item.icon" />
+          <h4 class="text-base">{{ item.title }}</h4>
+          <p class="text-sm font-light text-gray">
+            {{ item.caption }}
+          </p>
         </div>
       </div>
     </TheContainer>
@@ -21,30 +15,35 @@
 </template>
 <script setup lang="ts">
 interface Item {
-  img: string;
+  icon: string;
   title: string;
   caption: string;
 }
 const myData = reactive<Item[]>([
   {
-    img: "static-icons-1.png",
-    title: "Free Shipping",
-    caption: "On all orders over $75.00",
+    icon: "tabler:send",
+    title: "Shipping",
+    caption: "Possibility of express delivery",
   },
   {
-    img: "static-icons-2.png",
-    title: "Free Returns",
-    caption: "Returns are free within 9 days",
+    icon: "icon-park-outline:redo",
+    title: "Warranty",
+    caption: "1 month warranty for product replacement in case of damage",
   },
   {
-    img: "static-icons-3.png",
-    title: "Support 24/7",
-    caption: "Contact us 24 hours a day",
+    icon: "tabler:phone-call",
+    title: "Support",
+    caption: "Telephone and face-to-face support",
   },
   {
-    img: "static-icons-4.png",
+    icon: "tabler:play-card",
     title: "100% Payment Secure",
     caption: "Your payment are safe with us.",
+  },
+  {
+    icon: "tabler:shield",
+    title: "Guarantee",
+    caption: "Guarantee of originality of goods",
   },
 ]);
 const getImage = (index: number) => {

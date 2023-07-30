@@ -1,155 +1,183 @@
 <template>
-  <footer class=":uno: bg-blue-500 text-white">
-    <TheContainer>
-      <div class=":uno: grid grid-cols-12 gap-8 py-12">
-        <div class=":uno: col-span-12 md:col-span-4 lg:col-span-4">
-          <h3 class=":uno: font-medium text-lg mb-2">About US</h3>
-          <el-divider class=":uno: my-2 border-blue"></el-divider>
-          <p class=":uno: mb-4">
-            We are a team of designers and developers that create high quality
-            HTML template
-          </p>
-          <NuxtLink to="/">
-            <img
-              src="@/assets/images/logo/logo-2.png"
-              title="rozer"
-              alt="rozer"
-            />
-          </NuxtLink>
-        </div>
-        <div class=":uno: col-span-12 md:col-span-4 lg:col-span-2">
-          <h3 class=":uno: font-medium text-lg mb-2">Information</h3>
-          <el-divider class=":uno: my-2 border-blue"></el-divider>
-          <ul class=":uno: list-none">
-            <li>
-              <NuxtLink class="text-light no-underline" to="/"
-                >Delivery</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class="text-light no-underline" to="/"
-                >About Us</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class="text-light no-underline" to="/"
-                >Secure Payment</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class="text-light no-underline" to="/"
-                >Contact Us</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class="text-light no-underline" to="/"
-                >Sitemap</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class="text-light no-underline" to="/">Stores</NuxtLink>
-            </li>
-          </ul>
-        </div>
+  <!-- Footer Section -->
 
-        <div class=":uno: col-span-12 md:col-span-4 lg:col-span-2">
-          <h3 class=":uno: font-medium text-lg mb-2">Custom Links</h3>
-          <el-divider class=":uno: my-2 border-blue"></el-divider>
-          <ul class=":uno: list-none">
-            <li>
-              <NuxtLink class=":uno: text-light no-underline" to="/"
-                >Legal Notice</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class=":uno: text-light no-underline" to="/"
-                >Prices Drop</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class=":uno: text-light no-underline" to="/"
-                >New Products</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class=":uno: text-light no-underline" to="/"
-                >Best Sales</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink class=":uno: text-light no-underline" to="/">Login</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink class=":uno: text-light no-underline" to="/"
-                >My Account</NuxtLink
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div
-          class=":uno: col-span-12 md:col-span-8 md:col-start-3 lg:col-start-auto lg:col-span-4"
-        >
-          <h3 class=":uno: font-medium text-lg mb-2">Newsletter</h3>
-          <el-divider class=":uno: my-2 border-blue"></el-divider>
-          <p class=":uno: mb-4">
-            You may unsubscribe at any moment. For that purpose, please find our
-            contact info in the legal notice.
-          </p>
-          <el-form-item>
-            <div class=":uno: bg-white flex items-center rounded !overflow-hidden">
-              <el-input size="large" class=":uno: border-0 focus:outline-none">
-              </el-input>
-              <el-button type="info" class=":uno: bg-dark text-light !rounded-0 !h-10"
-                >signup</el-button
-              >
+  <footer class="grid">
+    <svg class="w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#1387f8"
+        fill-opacity="1"
+        d="M0,128L48,138.7C96,149,192,171,288,192C384,213,480,235,576,224C672,213,768,171,864,144C960,117,1056,107,1152,101.3C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <div class="bg-[#1387f8]">
+      <TheContainer>
+        <div class="grid grid-cols-12 gap-8 py-12">
+          <div class="col-span-12 md:col-span-4 lg:col-span-2">
+            <NuxtLink to="/">
+              <img
+                class="w-full w-full object-contain"
+                src="https://biinoise.com/wp-content/uploads/2020/12/logo-site-1-e1684931997977.png"
+                title="rozer"
+                alt="rozer"
+              />
+            </NuxtLink>
+          </div>
+          <div class="col-span-12 md:col-span-4 lg:col-span-2">
+            <h3 class="font-medium text-lg mb-2">Custom Links</h3>
+            <el-divider class="my-2 border-blue"></el-divider>
+            <ul class="list-none">
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Legal Notice</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Prices Drop</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >New Products</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Best Sales</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Login</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >My Account</NuxtLink
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-span-12 md:col-span-4 lg:col-span-2">
+            <h3 class="font-medium text-lg mb-2">Custom Links</h3>
+            <el-divider class="my-2 border-blue"></el-divider>
+            <ul class="list-none">
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Legal Notice</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Prices Drop</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >New Products</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Best Sales</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Login</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >My Account</NuxtLink
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-span-12 md:col-span-4 lg:col-span-3">
+            <h3 class="font-medium text-lg mb-2">Custom Links</h3>
+            <el-divider class="my-2 border-blue"></el-divider>
+            <ul class="list-none">
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Legal Notice</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Prices Drop</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >New Products</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Best Sales</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >Login</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink class="text-light no-underline" to="/"
+                  >My Account</NuxtLink
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-span-12 md:col-span-4 lg:col-span-3">
+            <div class="grid grid-cols-2">
+              <img
+                class="w-full"
+                src="https://persianmedia.co/upload/news/NL4af3EG.png"
+                alt=""
+                srcset=""
+              />
+              <img
+                class="w-full"
+                src="https://persianmedia.co/upload/news/NL4af3EG.png"
+                alt=""
+                srcset=""
+              />
             </div>
-          </el-form-item>
-          <div class="">
-            <el-button type="primary" circle class=":uno: text-white">
+          </div>
+        </div>
+      </TheContainer>
+    </div>
+    <el-divider class="!my-0" />
+    <div class="py-3 bg-[#1387f8]">
+      <TheContainer>
+        <div class="flex justify-between">
+          <span
+            >© 2021 Rozer Made With By
+            <NuxtLink class="text-light no-underline" to="/amirmaghami.ir"
+              >Amir Maghami</NuxtLink
+            >.</span
+          >
+          <div>
+            <el-button type="primary" circle class="text-white">
               <template #icon>
-                <Icon name="tabler:brand-github" size="22" />
+                <Icon name="simple-icons:aparat" />
               </template>
             </el-button>
             <el-button type="primary" circle>
               <template #icon>
-                <Icon name="tabler:brand-facebook" size="22" />
+                <Icon name="tabler:brand-whatsapp" />
               </template>
             </el-button>
-            <el-button type="primary" circle class=":uno: text-white">
+            <el-button type="primary" circle class="text-white">
               <template #icon>
-                <Icon name="tabler:brand-google" size="22" />
-              </template>
-            </el-button>
-            <el-button type="primary" circle class=":uno: text-white">
-              <template #icon>
-                <Icon name="tabler:brand-instagram" size="22" />
-              </template>
-            </el-button>
-            <el-button type="primary" circle class=":uno: text-white">
-              <template #icon>
-                <Icon name="tabler:brand-twitter" size="22" />
+                <Icon name="tabler:brand-instagram" />
               </template>
             </el-button>
           </div>
         </div>
-      </div>
-    </TheContainer>
-    <el-divider class=":uno: my-0"></el-divider>
-    <TheContainer>
-      <div class=":uno: flex justify-between py-4 text-sm">
-        <span
-          >© 2021 Rozer Made With By
-          <NuxtLink class=":uno: text-light no-underline" to="/amirmaghami.ir"
-            >Amir Maghami</NuxtLink
-          >.</span
-        >
-        <div>
-          <img
-            src="@/assets/images/icons/payment.png"
-          />
-        </div>
-      </div>
-    </TheContainer>
+      </TheContainer>
+    </div>
   </footer>
 </template>
