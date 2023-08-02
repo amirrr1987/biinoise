@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
+    '@pinia/nuxt',
     '@vueuse/nuxt',
     '@unocss/nuxt',
     'nuxt-lodash',
@@ -14,6 +15,12 @@ export default defineNuxtConfig({
   i18n: {
     /* module options */
   },
-  elementPlus: { /** Options */ }
+  elementPlus: { /** Options */ },
+  imports: {
+    dirs: ['./stores'],
+  },
 
+  pinia: {
+    autoImports: ['defineStore',],
+  },
 })

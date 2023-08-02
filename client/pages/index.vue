@@ -1,6 +1,7 @@
 <template>
   <HomeCarousel />
 
+  
 
     <div>
       <TheContainer>
@@ -151,6 +152,11 @@
   </section> -->
 </template>
 <script lang="ts" setup>
+  
+
+
+
+
 const handleMessage = (): any => {
   message.info("This is a normal message");
 };

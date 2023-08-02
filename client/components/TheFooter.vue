@@ -155,8 +155,8 @@
         <div class="flex justify-between">
           <span
             >© 2021 Rozer Made With By
-            <NuxtLink class="text-light no-underline" to="/amirmaghami.ir"
-              >Amir Maghami</NuxtLink
+            <a class="text-light no-underline" href="https://amirmaghami.ir/" target="_blank"
+              >Amir Maghami</a
             >.</span
           >
           <div>

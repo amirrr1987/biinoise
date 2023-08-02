@@ -52,7 +52,7 @@
       </TheContainer>
     </nav>
 
-    <div class=":uno: bg-gray-100 py-4" v-if="route.name !== 'index'">
+    <div class="bg-gray-200 py-4" v-if="route.name !== 'index'">
       <TheContainer>
         <el-breadcrumb separator="/">
           <el-breadcrumb-item :to="{ path: '/' }">Home</el-breadcrumb-item>
@@ -75,13 +75,17 @@ const navigation = reactive([
     url: "/",
   },
   {
-    name: "headphones",
-    url: "/headphones",
+    name: "products",
+    url: "/products",
   },
-  {
-    name: "speakers",
-    url: "/speakers",
-  },
+  // {
+  //   name: "headphones",
+  //   url: "/headphones",
+  // },
+  // {
+  //   name: "speakers",
+  //   url: "/speakers",
+  // },
   {
     name: "home",
     url: "/",
