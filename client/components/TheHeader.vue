@@ -43,10 +43,22 @@
           <NuxtLink
             v-for="(nav, index) in navigation"
             :key="index"
-            class=":uno: text-white no-underline px-3 py-1 capitalize focus:text-blue-900"
+            class=":uno: text-white no-underline px-3 py-1 capitalize focus:text-blue-900 relative"
             :to="nav.url"
           >
             {{ nav.name }}
+            <template v-if="nav.children">
+              <div class="absolute grid left-0 top-10 z-50 border border-solid border-dark bg-[#f1f1f1] px-3 py-1">
+                <NuxtLink
+                  v-for="(child, index) in nav"
+                  :key="index"
+                  class=":uno: text-dark no-underline px-3 py-1 capitalize focus:text-blue-900"
+                  :to="nav.url"
+                >
+                  {{ nav.name }}
+                </NuxtLink>
+              </div>
+            </template>
           </NuxtLink>
         </ul>
       </TheContainer>
@@ -75,8 +87,29 @@ const navigation = reactive([
     url: "/",
   },
   {
+<<<<<<< Updated upstream
     name: "products",
     url: "/products",
+=======
+    name: "headphones",
+    url: "/headphones",
+    children: [
+      {
+        name: "speakers",
+        url: "/speakers",
+      },
+    ],
+  },
+  {
+    name: "speakers",
+    url: "/speakers",
+        children: [
+      {
+        name: "speakers",
+        url: "/speakers",
+      },
+    ],
+>>>>>>> Stashed changes
   },
   // {
   //   name: "headphones",

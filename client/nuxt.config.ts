@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'vue3-carousel-nuxt'
   ],
-  css: ['assets/styles/main.css'],
+  css: ['assets/styles/main.scss'],
   i18n: {
     /* module options */
   },
