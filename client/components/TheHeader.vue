@@ -87,10 +87,8 @@ const navigation = reactive([
     url: "/",
   },
   {
-<<<<<<< Updated upstream
     name: "products",
     url: "/products",
-=======
     name: "headphones",
     url: "/headphones",
     children: [
@@ -109,7 +107,6 @@ const navigation = reactive([
         url: "/speakers",
       },
     ],
->>>>>>> Stashed changes
   },
   // {
   //   name: "headphones",
